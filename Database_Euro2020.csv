@@ -1,0 +1,620 @@
+﻿NomeCognome;Anni;Altezza;Nazionalità;Ruolo;Campionato;Nazionecampionato;Squadra;PartiteGiocate;PartiteTitolare;MinutiAPartita;GoalConcessiPerPartita;ParatePerPartita;RigoriParati;GoalFatti;AssistFatti;TiriPerPartita;GrandiOccasioniSbagliate;PalloniToccatiPerPartita;OccasioniChiaveCreate;PrecisionePassaggi;PrecisionePassaggiCampoAmico;PrecisionePassaggiCampoAvversario;PortaInviolata;IntercettazioniAPartita;ContrastiAPartita;DribblingRiuscitiPerPartita;DuelliVintiAPartita;PalloniPersiAPartita;FalliPerPartita;Fuorigiochi;Ammonizioni;Espulsioni
+Daniel Bachmann;26;191;Austria;Portiere;Premier League;Inghilterra ;Watford;4;4;98;1.3;2;0;0;0;0.0;0;42.8;0;0.77;0.88;0.34;1;0;0;0.3;0.5;8.3;0;0;1;0
+Pavao Pervan ;34;193;Austria;Portiere;Bundesliga;Germania ;Wolfsburg;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Alexander Schlager;26;184;Austria;Portiere;Bundesliga;Austria ;LASK;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+David Alaba ;28;180;Austria;Difensore;Bundesliga;Germania ;Bayern Monaco;4;4;98;0;0;0;0;2;0.5;0;95.3;2;0.83;0.88;0.74;1;0.8;1.5;0;2.5;18.3;0.8;0;1;0
+Aleksandar Dragović ;30;184;Austria;Difensore;Bundesliga;Germania ;Bayer Leverkusen;4;4;85;0;0;0;0;0;0.3;0;70.8;0;0.87;0.95;0.76;1;2.3;1.3;0.5;5.5;8.5;1.3;0;1;0
+Marco Friedl ;23;187;Austria;Difensore;Bundesliga;Germania ;Werder Brema;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Martin Hinteregger ;28;184;Austria;Difensore;Bundesliga;Germania ;Eintracht Frankfurt;4;4;98;0;0;0;0;0;1.0;0;76.3;0;0.83;0.93;0.66;1;1.5;2.3;0;4;12.3;1.8;0;1;0
+Stefan Lainer ;28;176;Austria;Difensore;Bundesliga;Germania ;Borussia Mönchengladbach;4;4;96;0;0;0;1;0;0.8;0;82.5;0;0.74;0.85;0.58;1;1.8;3.3;0.3;7.3;20.8;0.8;0.3;1;0
+Philipp Lienhart ;25;189;Austria;Difensore;Bundesliga;Germania ;Friburgo;2;0;26;0;0;0;0;0;0.0;0;23.5;0;0.88;0.86;0.87;0;0;0;0;1;3.5;0;0;0;0
+Stefan Posch ;23;188;Austria;Difensore;Bundesliga;Germania ;Hoffenheim;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Andreas Ulmer;35;175;Austria;Difensore;Bundesliga;Austria ;Salzburg;2;2;90;0;0;0;0;0;0.0;0;52.5;0;0.76;0.88;0.67;0;0;1.5;1;3.5;15.5;0;0;0;0
+Julian Baumgartlinger ;33;183;Austria;Centrocampista;Bundesliga;Germania ;Bayer Leverkusen;1;0;1;0;0;0;0;0;0.0;0;2;0;1;1;0;0;0;0;0;0;0;0;0;0;0
+Christoph Baumgartner ;21;178;Austria;Centrocampista;Bundesliga;Germania ;Hoffenheim;4;4;63;0;0;0;1;0;0.8;0;33.5;0;0.76;0.93;0.65;0;0;1.3;0.3;4.5;10;1.3;0;0;0
+Florian Grillitsch ;25;187;Austria;Centrocampista;Bundesliga;Germania ;Hoffenheim;3;2;74;0;0;0;0;0;0.3;0;66.3;0;0.88;0.94;0.81;0;2.3;1;0.7;3.3;8;0.7;0;0;0
+Stefan Ilsanker ;31;189;Austria;Centrocampista;Bundesliga;Germania ;Eintracht Frankfurt;3;0;8;0;0;0;0;0;0.0;0;6.3;0;0.75;0.75;0.75;0;0;0.3;0;0.3;1.3;0.3;0;0;0
+Konrad Laimer ;23;184;Austria;Centrocampista;Bundesliga;Germania ;Leipzig;4;4;84;0;0;0;0;1;0.5;1;41.3;1;0.72;0.69;0.72;1;0.3;2;1.3;3.8;12.8;2.8;0;0;0
+Valentino Lazaro ;25;180;Austria;Centrocampista;Serie A;Italia ;Inter;1;0;20;0;0;0;0;0;0.0;0;17;0;0.91;0.67;0.91;0;0;0;0;0;3;0;0;0;0
+Karim Onisiwo ;29;188;Austria;Centrocampista;Bundesliga;Germania ;Mainz;1;0;6;0;0;0;0;0;0.0;1;4;0;1;1;0;0;0;0;0;1;1;0;0;0;0
+Marcel Sabitzer ;27;177;Austria;Centrocampista;Bundesliga;Germania ;Leipzig;0;0;0;0;0;0;0;0;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Louis Schaub ;26;177;Austria;Centrocampista;Super League;Svizzera ;Lucerna;1;0;15;0;0;0;0;1;2.0;0;14;0;0.67;0.5;0.8;0;0;2;0;2;4;0;0;0;0
+Xaver Schlager ;23;174;Austria;Centrocampista;Bundesliga;Germania ;Wolfsburg;4;4;92;0;0;0;0;0;1.3;0;53.3;0;0.82;0.83;0.81;0;0.8;3.5;1.8;6.5;11.3;0.8;0;0;0
+Alessandro Schöpf ;27;178;Austria;Centrocampista;Zweite Bundesliga;Germania ;Shalke 04;2;0;44;0;0;0;0;0;0.5;0;28;1;0.86;0.93;0.81;0;0;0;0.5;1.5;6;0.5;0;0;0
+Christopher Trimmel ;34;189;Austria;Centrocampista;Bundesliga;Germania ;Union Berlin;1;0;6;0;0;0;0;0;0.0;0;3;0;1;0;1;0;0;0;0;0;0;0;0;0;0
+Marko Arnautović ;32;192;Austria;Attaccante;Chinese League;Cina ;Shanghai Port;3;2;72;0;0;0;1;0;2.7;1;34;0;0.68;0.69;0.69;0;0.3;0.7;2;5.3;10.7;1.7;0.7;1;0
+Michael Gregoritsch ;28;193;Austria;Attaccante;Bundesliga;Germania ;Augsburg;3;1;36;0;0;0;1;0;1.0;0;15;1;0.81;0.8;0.78;0;0;0.7;0;3;3.7;0.3;0.3;0;0
+Sasa Kalajdzic ;24;200;Austria;Attaccante;Bundesliga;Germania ;Stoccarda;4;1;28;0;0;0;1;0;1.5;1;16.5;1;0.78;0.86;0.76;0;0.8;0.3;0.3;4;4.5;0.3;0;0;0
+Thibaut Courtois ;28;199;Belgio;Portiere;LaLiga;Spagna ;Real Madrid;5;5;90;0.6;2.4;0;0;0;0;0;38.2;0;0.81;0.91;0.47;3;0;0;0.2;0.6;5.6;0;0;0;0
+Matz Sels ;29;188;Belgio;Portiere;Ligue 1;Francia;Strasburgo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Thomas Kaminski ;28;190;Belgio;Portiere;English Championship;Inghilterra ;Blackburn Rovers;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Toby Alderweireld ;32;186;Belgio;Difensore;Premier League;Inghilterra ;Tottenham;4;4;90;0;0;0;0;0;0.5;0;85.3;0;0.88;0.94;0.79;2;0.5;1;0;2.8;10;0.5;0;1;0
+Dedryck Boyata ;30;188;Belgio;Difensore;Bundesliga;Germania ;Hertha Berlin;2;2;90;0;0;0;0;0;0;0;96.5;0;0.98;0.96;1;2;1.5;1.5;0;3;2;0.5;0;0;0
+Timothy Castagne ;25;185;Belgio;Difensore;Premier League;Inghilterra ;Leicester City;1;1;27;0;0;0;0;0;0;0;12;0;1;1;1;0;0;0;0;1;1;1;0;0;0
+Jason Denayer ;25;184;Belgio;Difensore;Ligue 1;Francia ;Olympique Lione;2;2;90;0;0;0;0;0;0.5;0;89;0;0.92;0.93;0.91;1;1;0.5;0;2;6.5;1;0;0;0
+Thomas Meunier;29;190;Belgio;Difensore;Bundesliga;Germania ;Borussia Dortmund;5;3;66;0;0;0;1;2;0.8;1;53.6;1;0.73;0.78;0.65;1;1.2;1.6;0.6;4.2;13.2;0.4;0;0;0
+Thomas Vermaelen;35;183;Belgio;Difensore;J League;Giappone ;Vissel Kobe;5;3;57;0;0;0;0;0;0.2;0;45.2;0;0.93;0.96;0.89;2;1.4;1.6;0;5.2;3;0.6;0;1;0
+Jan Vertonghen ;33;189;Belgio;Difensore;Primeira Liga;Portogallo ;Benfica;4;4;87;0;0;0;0;0;0;0;88.3;0;0.9;0.91;0.88;1;0.5;1;0.5;4.5;8.3;0.3;0;0;0
+Nacer Chadli ;31;187;Belgio;Centrocampista;Süper Lig;Turchia ;İstanbul Başakşehir;2;1;47;0;0;0;0;0;1;0;42;0;0.88;0.94;0.75;0;0;0.5;0;2;8.5;0.5;0;0;0
+Yannick Carrasco ;27;180;Belgio;Centrocampista;LaLiga;Spagna ;Atletico Madrid;3;2;48;0;0;0;0;0;0.3;0;25.7;0;0.85;0.88;0.73;0;0;0.3;1.3;1.7;9.3;0;0;0;0
+Kevin De Bruyne;29;181;Belgio;Centrocampista;Premier League;Inghilterra ;Manchester City;4;3;68;0;0;0;1;2;1.3;0;56;4;0.79;0.87;0.71;0;0;1.3;2.5;4;15.5;1.3;0;0;0
+Leander Dendoncker ;26;188;Belgio;Centrocampista;Premier League;Inghilterra ;Wolverhampton;3;2;50;0;0;0;0;0;0.3;0;36.3;0;0.88;0.92;0.83;0;1;0.7;0.3;3.3;5.7;1.7;0;0;0
+Eden Hazard ;30;173;Belgio;Centrocampista;LaLiga;Spagna ;Real Madrid;4;2;57;0;0;0;0;1;1.3;1;47.5;0;0.86;0.87;0.85;0;0.3;0.3;2.8;5;9.5;0.3;0;0;0
+Thorgan Hazard ;28;174;Belgio;Centrocampista;Bundesliga;Germania ;Borussia Dortmund;4;4;90;0;0;0;2;0;1;0;82.3;0;0.88;0.91;0.81;0;1.3;3.3;0.8;5.5;11.3;2.8;0;1;0
+Dennis Praet;26;181;Belgio;Centrocampista;Premier League;Inghilterra ;Leicester City;2;0;15;0;0;0;0;0;0;0;7;0;0.88;1;0.75;0;0;0;0;0;2;0.5;0;0;0
+Youri Tielemans;23;177;Belgio;Centrocampista;Premier League;Inghilterra ;Leicester City;4;4;85;0;0;0;0;0;0.5;0;65;0;0.86;0.89;0.81;0;0.8;1.3;1.3;4.5;10.3;1.3;0;1;0
+Hans Vanaken ;29;194;Belgio;Centrocampista;Pro League;Belgio ;Club Brugge;1;0;1;0;0;0;0;0;0;0;2;0;1;1;1;0;0;0;0;0;0;0;0;0;0
+Axel Witsel ;32;186;Belgio;Centrocampista;Bundesliga;Germania ;Borussia Dortmund;4;3;75;0;0;0;0;0;0.5;0;58.8;1;0.96;0.96;0.95;0;0;1.3;0.8;3.8;3.5;1;0;0;0
+Michy Batshuayi;27;185;Belgio;Attaccante;Premier League;Inghilterra ;Crystal Palace;1;0;15;0;0;0;0;0;0;0;17;0;0.85;1;0.67;0;0;0;2;2;4;2;0;0;0
+Christian Benteke;30;190;Belgio;Attaccante;Premier League;Inghilterra ;Crystal Palace;1;0;10;0;0;0;0;0;0;0;5;0;0.8;1;0.75;0;0;0;0;0;1;0;0;0;0
+Jeremy Doku;18;171;Belgio;Attaccante;Ligue 1;Francia ;Stade Rennais;2;2;83;0;0;0;0;0;1.5;0;53.5;0;0.82;0.75;0.79;0;0;1;5;9;16.5;1.5;0;0;0
+Romelu Lukaku;27;191;Belgio;Attaccante;Serie A;Italia ;Inter;5;5;89;0;0;0;4;0;2.6;2;28.8;0;0.62;0.94;0.53;0;0;0.4;1.6;4.6;12.6;1.2;1;0;0
+Dries Mertens ;33;169;Belgio;Attaccante;Serie A;Italia ;Napoli;4;2;45;0;0;0;0;0;0.3;0;16.8;0;0.7;0.64;0.67;0;0.5;0.8;0;1;5.8;1.3;0.3;0;0
+Leandro Trossard ;26;172;Belgio;Attaccante;Premier League;Inghilterra ;Brighton & Hove Albion;1;1;75;0;0;0;0;0;1;0;70;0;0.81;0.86;0.8;0;0;3;0;5;11;2;0;0;0
+Dominik Livaković ;26;186;Croazia;Portiere;1. HNL;Croazia ;Dinamo Zagabria;4;4;98;2;2;0;0;0;0;0;36.8;0;0.68;0.86;0.29;0;0;0;0;0.8;9.3;0;0;0;0
+Lovre Kalinić ;31;201;Croazia;Portiere;1. HNL;Croazia ;Hajduk Spalato;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Simon Sluga;28;191;Croazia;Portiere;English Championship;Inghilterra ;Luton Town;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Borna Barišić ;28;186;Croazia;Difensore;Premiership;Scozia ;Rangers;1;0;19;0;0;0;0;0;0;0;24;0;0.91;0.86;1;0;2;0;0;2;5;0;0;0;0
+Domagoj Bradarić ;21;178;Croazia;Difensore;Ligue 1;Francia ;Lille;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Duje Ćaleta-Car ;24;192;Croazia;Difensore;Ligue 1;Francia ;Olympique Marsiglia;2;2;105;0;0;0;0;0;0;0;58.5;0;0.9;0.95;0.71;0;2;2.5;0;4;5.5;3;0;2;0
+Joško Gvardiol ;19;186;Croazia;Difensore;Bundesliga;Germania ;Leipzig;4;4;93;0;0;0;0;0;0.8;2;68.5;0;0.83;0.88;0.74;0;1.3;1.3;1.3;4;11;1;0;0;0
+Josip Juranović;24;175;Croazia;Difensore;Ekstraklasa;Polonia ;Legia Varsavia;2;2;82;0;0;0;0;0;0.5;0;54;0;0.9;0.95;0.79;0;0.5;0;1;3.5;10;0;0;0;0
+Dejan Lovren ;31;188;Croazia;Difensore;Premier Liga;Russia ;Zenit;2;2;90;0;0;0;0;0;0.5;0;69.5;0;0.86;0.91;0.65;0;0;0;0;5.5;9.5;1.5;0;2;0
+﻿﻿﻿﻿Mile Škorić;30;187;Croazia;Difensore;1. HNL;Croazia ;Osijek;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Domagoj Vida;32;184;Croazia;Difensore;Süper Lig;Turchia ;Beşiktaş;4;4;98;0;0;0;0;0;0;0;51.3;0;0.93;0.95;0.82;0;0.8;1;0;2.3;3.5;1.3;0;0;0
+Šime Vrsaljko ;30;183;Croazia;Difensore;LaLiga;Spagna;Atletico Madrid;2;2;90;0;0;0;0;0;0;0;74.5;0;0.78;0.83;0.62;0;0.5;2.5;0.5;4.4;18;1;0;0;0
+Mateo Kovačić;26;178;Croazia;Centrocampista;Premier League;Inghilterra ;Chelsea;4;4;85;0;0;0;0;1;1;0;67.3;0;0.88;0.94;0.84;0;0.5;1.5;2.8;5.5;10;1;0;1;0
+Luka Modrić ;35;173;Croazia;Centrocampista;LaLiga;Spagna ;Real Madrid;4;4;96;0;0;0;1;1;0.8;0;82.5;2;0.88;0.91;0.83;0;1;1;1;3.3;13.5;0.8;0;0;0
+Marcelo Brozović ;28;181;Croazia;Centrocampista;Serie A;Italia ;Inter;4;3;71;0;0;0;0;0;0.3;0;60.5;0;0.9;0.91;0.88;0;0.5;1.3;0;2;8;1.8;0;2;0
+Milan Badelj;32;186;Croazia;Centrocampista;Serie A;Italia ;Genoa;4;4;98;0;0;0;0;1;1;0;70.8;0;0.83;0.93;0.72;0;2.3;2.8;0.5;5;0;1;0;1;0
+Nikola Vlašić;24;178;Croazia;Centrocampista;Premier Liga;Russia ;CSKA Mosca;4;2;51;0;0;0;1;0;0.8;1;23.3;2;0.85;0.89;0.84;0;0.3;0.5;2.3;3.5;5.3;0.5;0.3;0;0
+Mario Pašalić;27;189;Croazia;Centrocampista;Serie A;Italia ;Atalanta;2;0;26;0;0;0;1;0;1.5;1;15;3;0.96;1;0.92;0;1;0;0;0;1;0;0;0;0
+Ivan Perišić;33;187;Croazia;Centrocampista;Serie A;Italia;Inter ;3;3;87;0;0;0;2;1;2.3;0;43;0;0.76;0.74;0.68;0;1;0.7;0.3;3.7;12.7;0.3;0.7;0;0
+Mislav Oršić ;29;178;Croazia;Centrocampista;1. HNL;Croazia ;Dinamo Zagabria;1;0;53;0;0;0;1;1;2;0;29;1;0.7;0;0.53;0;0;1;2;3;13;0;1;0;0
+Luka Ivanušec;23;175;Croazia;Centrocampista;1. HNL;Croazia ;Dinamo Zagabria;3;0;22;0;0;0;0;0;0.3;0;12;0;0.83;1;0.72;0;0.3;0.3;0.3;0.7;3.7;0;0;0;0
+Josip Brekalo ;22;175;Croazia;Attaccante;Bundesliga;Germania ;Wolfsburg;3;1;37;0;0;0;0;0;0;0;21;1;0.79;1;0.62;0;0.3;1;0.3;1.3;6.3;0.7;0.3;0;0
+Ante Budimir;29;190;Croazia;Attaccante;LaLiga;Spagna ;Osasuna;1;0;41;0;0;0;0;0;2;2;14;0;0.86;1;0.83;0;0;1;0;5;1;2;0;0;0
+Andrej Kramarić ;29;177;Croazia;Attaccante;Bundesliga;Germania ;Hoffenheim;4;2;57;0;0;0;0;1;1;1;22.8;0;0.88;0.96;0.77;0;0;0;0.3;1.3;6.3;0;0.8;0;0
+Bruno Petković;26;192;Croazia;Attaccante;1. HNL;Croazia ;Dinamo Zagabria;4;2;43;0;0;0;0;0;0.5;0;21;0;0.68;0.85;0.62;0;0.5;0;0.3;3.3;7.3;1;0.8;0;0
+Ante Rebić ;28;185;Croazia;Attaccante;Serie A;Italia ;Milan;4;3;50;0;0;0;0;0;1.3;1;19.3;0;0.5;0.6;0.44;0;0.3;1.3;0;2;8.5;1.8;0.5;0;0
+Tomáš Koubek ;29;198;Repubblica Ceca;Portiere;Bundesliga;Germania ;Augsburg;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Aleš Mandous ;30;188;Repubblica Ceca;Portiere;1. Liga;Repubblica Ceca ;Olomouc;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Tomáš Vaclík;33;188;Repubblica Ceca;Portiere;LaLiga;Spagna ;Siviglia;5;5;90;0.8;2.6;0;0;0;0;0;35.2;0;0.55;0.84;0.28;2;0;0.2;0;0;12.2;0;0;0;0
+Jan Bořil;31;175;Repubblica Ceca;Difensore;1. Liga;Repubblica Ceca ;Slavia Praha;4;4;90;0;0;0;0;0;0.3;0;59.3;0;0.77;0.81;0.68;1;2.3;1.8;0.3;3.5;14.5;2;0.3;2;0
+Jakub Brabec;29;186;Repubblica Ceca;Difensore;1. Liga;Repubblica Ceca ;Viktoria Plzeň;1;0;25;0;0;0;0;0;0;0;24;0;0.84;0.86;0.8;0;1;0;0;0;4;0;0;0;0
+Ondřej Čelůstka ;31;186;Repubblica Ceca;Difensore;1. Liga;Repubblica Ceca ;Sparta Praha;5;5;85;0;0;0;0;0;0;0;46.6;0;0.81;0.88;0.71;2;1.2;0.8;0;3.8;7.6;0.8;0;0;0
+Vladimír Coufal ;28;179;Repubblica Ceca;Difensore;Premier League;Inghilterra ;West Ham;5;5;90;0;0;0;0;2;0.6;0;82.6;0;0.74;0.81;0.65;2;1.2;2.8;1.2;6.2;22;0.8;0;1;0
+Pavel Kadeřábek ;29;182;Repubblica Ceca;Difensore;Bundesliga;Germania ;Hoffenheim;1;1;90;0;0;0;0;0;1;1;61;0;0.76;0.81;0.68;1;1;0;0;3;15;1;0;0;0
+Tomáš Kalas ;27;184;Repubblica Ceca;Difensore;English Championship;Inghilterra ;Bristol City;5;5;90;0;0;0;0;1;0.2;0;52;1;0.81;0.9;0.6;2;1;0.6;0;4.6;8.4;1;0;1;0
+Tomáš Holeš;28;180;Repubblica Ceca;Difensore;1. Liga;Repubblica Ceca ;Slavia Praha;5;4;60;0;0;0;1;1;1.2;1;34;1;0.74;0.77;0.71;0;1.6;2;0.6;4.4;7.6;0.4;0;0;0
+﻿Aleš Matějů ;24;184;Repubblica Ceca;Difensore;Serie B;Italia ;Brescia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+David Zima ;20;190;Repubblica Ceca;Difensore;1. Liga;Repubblica Ceca ;Slavia Praha;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Antonín Barák;25;190;Repubblica Ceca;Centrocampista;Serie A;Italia ;Verona;3;2;61;0;0;0;0;0;1;0;41.3;0;0.86;0.93;0.77;0;1;0;1.3;1.7;9.3;0.7;0;0;0
+Vladimír Darida ;31;171;Repubblica Ceca;Centrocampista;Bundesliga;Germania ;Hertha Berlin;4;3;62;0;0;0;0;0;0,5;0;41;0;0.81;0.86;0.71;0;0.3;1;1;4;10.8;0.3;0;0;0
+Jakub Jankto;25;180;Repubblica Ceca;Centrocampista;Serie A;Italia ;Sampdoria;5;3;49;0;0;0;0;0;0.6;0;26.8;0;0.83;0.74;0.73;0;0;0.2;0.2;0.8;7.4;0.2;0.2;0;0
+Alex Král ;22;185;Repubblica Ceca;Centrocampista;Premier Liga;Russia ;Spartak Mosca;4;1;33;0;0;0;0;0;0.3;0;22;0;0.68;0.78;0.6;0;0.5;0.8;0;2;7.3;0.5;0;0;0
+Lukáš Masopust ;28;179;Repubblica Ceca;Centrocampista;1. Liga;Repubblica Ceca ;Slavia Praha;5;5;65;0;0;0;0;0;0.2;0;32.8;1;0.81;0.84;0.74;0;0.6;1.2;0.8;2.8;8.2;1.2;0.4;1;0
+﻿Jakub Pešek ;27;173;Repubblica Ceca;Centrocampista;1. Liga;Repubblica Ceca ;Sparta Praha;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Michal Sadílek ;21;168;Repubblica Ceca;Centrocampista;1. Liga;Repubblica Ceca ;Liberec;1;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Petr Ševčík ;26;172;Repubblica Ceca;Centrocampista;1. Liga;Repubblica Ceca ;Slavia Praha;5;2;47;0;0;0;0;0;0.2;0;27.6;0;0.77;0.81;0.68;0;0.4;0.6;0.2;2.2;9.2;0;0;0;0
+Adam Hložek ;18;186;Repubblica Ceca;Attaccante;1. Liga;Repubblica Ceca ;Sparta Praha;4;0;21;0;0;0;0;0;0.3;0;8.8;1;0.62;0.5;0.06;0;0;0;0;0.8;4;0.3;0;1;0
+Michael Krmenčík ;28;190;Repubblica Ceca;Attaccante;Super League;Grecia ;PAOK;4;0;17;0;0;0;0;0;1;1;4.8;0;0.62;0.67;0.6;0;0;0;0;0.5;1.5;0.3;0.8;1;0
+Tomáš Pekhart ;32;194;Repubblica Ceca;Attaccante;Ekstraklasa;Polonia ;Legia Varsavia;1;0;15;0;0;0;0;0;1;0;6;0;0;0;0;0;0;0;0;0;3;0;0;0;0
+Patrik Schick ;25;191;Repubblica Ceca;Attaccante;Bundesliga;Germania ;Bayern Leverkusen;5;5;81;0;0;0;5;0;3.2;0;32.4;0;0.72;0.7;0.74;0;0;1.2;1.2;4.2;9.6;1;0.4;0;0
+Matěj Vydra;28;178;Repubblica Ceca;Attaccante;Premier League;Inghilterra ;Burnley;3;0;13;0;0;0;0;0;0;0;6;1;0.8;1;0.78;0;0.3;0;0.3;0.7;1.7;0;0.3;0;0
+Jonas Lössl ;32;195;Danimarca;Portiere;Superliga;Danimarca ;Midtjylland;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Frederik Rønnow ;28;188;Danimarca;Portiere;Bundesliga;Germania ;Schalke;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kasper Schmeichel ;34;186;Danimarca;Portiere;Premier League;Inghilterra ;Leicester City;6;6;95;1.2;2.8;1;0;0;0;0;30;0;0.63;0.83;0.4;1;0;0;0;0;8.8;0;0;0;0
+Joachim Andersen;24;190;Danimarca;Difensore;Premier League;Inghilterra ;Fulham;3;0;21;0;0;0;0;0;0.3;1;17;0;0.92;0.91;0.94;0;0.3;1;0;1.7;1;0;0;0;0
+Nicolai Boilesen ;29;185;Danimarca;Difensore;Superliga;Danimarca ;Copenhagen;1;0;13;0;0;0;0;0;0;0;5;0;0.5;1;0;0;0;0;0;1;2;0;0;0;0
+Andreas Christensen ;26;188;Danimarca;Difensore;Premier League;Inghilterra ;Chelsea;6;6;87;0;0;0;1;0;0.5;0;58;0;0.89;0.94;0.84;1;1.3;1.5;0.2;5.3;5.8;0.7;0;0;0
+Mathias Jørgensen;20;185;Danimarca;Difensore;Superliga;Danimarca ;Copenhagen;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Simon Kjær ;32;189;Danimarca;Difensore;Serie A;Italia ;Milan;6;6;88;0;0;0;0;0;0.3;1;58;0;0.88;0.98;0.72;0;1.7;1.7;0;4.8;5.7;0.5;0;0;0
+Joakim Mæhle ;23;185;Danimarca;Difensore;Serie A;Italia ;Atalanta;6;6;95;0;0;0;2;1;1.7;2;73.7;1;0.86;0.87;0.81;0;1.3;1.7;2;5.7;14;1;0;0;0
+Jens Stryger Larsen;30;180;Danimarca;Difensore;Serie A;Italia ;Udinese;6;3;48;0;0;0;0;1;0;0;36;1;0.76;0.84;0.63;0;0.2;0;0.3;1;10.3;0.3;0;0;0
+Jannik Vestergaard ;28;199;Danimarca;Difensore;Premier League;Inghilterra ;Southampton;6;5;81;0;0;0;0;0;1;0;56;0;0.84;0.94;0.73;1;1.3;1.5;0.2;4.8;7.8;1.5;0;0;0
+Anders Christiansen ;30;174;Danimarca;Centrocampista;Allsvenskan;Svezia ;Malmö;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Thomas Delaney ;29;182;Danimarca;Centrocampista;Bundesliga;Germania ;Borussia Dortmund;6;6;77;0;0;0;1;0;1.2;0;52.7;0;0.79;0.89;0.68;0;1.2;1.3;0.2;4.7;11.2;2.3;0;1;0
+Christian Eriksen;29;182;Danimarca;Centrocampista;Serie A;Italia ;Inter;1;1;43;0;0;0;0;0;2;0;38;0;0.88;0.88;0.68;0;0;0;0;1;11;0;0;0;0
+Pierre-Emile Højbjerg;25;185;Danimarca;Centrocampista;Premier League;Inghilterra ;Tottenham;6;6;95;0;0;0;0;3;1.3;1;80.7;1;0.84;0.91;0.78;0;1.2;1.8;1.7;5;14.2;0.5;0;0;0
+Mathias Jensen;25;180;Danimarca;Centrocampista;English Championship;Inghilterra ;Brentford;6;0;21;0;0;0;0;1;0.3;0;22.3;1;0.84;0.9;0.69;0;0;0.3;0.2;1;5.7;0.7;0;1;0
+Christian Nørgaard ;27;185;Danimarca;Centrocampista;English Championship;Inghilterra ;Brentford;5;0;32;0;0;0;0;0;0;0;23.8;0;0.93;0.92;0.92;0;0.6;0.2;0.2;1.4;2.4;0.2;0;0;0
+﻿Robert Skov ;24;183;Danimarca;Centrocampista;Bundesliga;Germania ;Hoffenheim;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Daniel Wass ;31;181;Danimarca;Centrocampista;LaLiga;Spagna ;Valencia;5;3;54;0;0;0;0;0;0.8;0;50.8;0;0.83;0.94;0.67;0;1;1.6;0;3.8;9;0.6;0;2;0
+Martin Braithwaite;29;177;Danimarca;Attaccante;LaLiga;Spagna ;Barcellona;6;6;94;0;0;0;1;0;2.7;1;44;0;0.8;0.84;0.7;0;0;0;1.4;4.7;13.3;1;0.3;0;0
+Andreas Cornelius;28;193;Danimarca;Attaccante;Serie A;Italia ;Parma;4;0;15;0;0;0;0;1;1;0;10.3;0;0.76;0.89;0.65;0;0;0.3;1.5;3;2.3;0.5;0;0;0
+Mikkel Damsgaard ;20;180;Danimarca;Attaccante;Serie A;Italia ;Sampdoria;5;5;66;0;0;0;2;1;1.8;0;38.8;1;0.75;0.74;0.73;0;1.6;1.2;1.8;4.6;10.6;0.8;0.2;1;0
+Kasper Dolberg ;23;187;Danimarca;Attaccante;Ligue 1;Francia ;Nice;4;3;57;0;0;0;3;0;1.8;1;23.3;0;0.77;0.69;0.8;0;0;0.8;1;4.8;6;1.5;0.3;0;0
+Andreas Skov Olsen ;21;187;Danimarca;Attaccante;Serie A;Italia ;Bologna;2;0;20;0;0;0;0;0;0;0;14;0;0.89;0.5;1;0;0;0;0.5;1.5;2.5;0;0;0;0
+Yussuf Poulsen ;26;193;Danimarca;Attaccante;Bundesliga;Germania ;Leipzig;5;3;59;0;0;0;2;0;1.4;0;31.6;1;0.65;0.8;0.57;0;0.2;0.6;0.2;4.8;12.8;1.4;0;0;0
+Jonas Wind;22;190;Danimarca;Attaccante;Superliga;Danimarca ;Copenhagen;2;1;39;0;0;0;0;0;2;0;13;0;0.93;0.83;1;0;0;0.5;0;1.5;2;0;0;0;0
+Sam Johnstone;28;193;Inghilterra;Portiere;English Championship;Inghilterra ;West Bromwich Albion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Jordan Pickford;27;185;Inghilterra;Portiere;Premier League;Inghilterra ;Everton;7;7;99;0.3;2.3;0;0;0;0;0;40.7;0;0.61;0.84;0.32;5;0;0;0;0.1;12.3;0;0;0;0
+Aaron Ramsdale ;22;191;Inghilterra;Portiere;Premier League;Inghilterra ;Sheffield United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ben Chilwell;24;178;Inghilterra;Difensore;Premier League;Inghilterra ;Chelsea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Conor Coady ;28;184;Inghilterra;Difensore;Premier League;Inghilterra ;Wolverhampton;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Reece James ;21;182;Inghilterra;Difensore;Premier League;Inghilterra ;Chelsea;1;1;90;0;0;0;0;0;1;0;93;1;0.99;1;0.98;0;1;0;0;0;2;0;0;0;0
+Harry Maguire ;28;194;Inghilterra;Difensore;Premier League;Inghilterra ;Manchester United;5;5;102;0;0;0;1;0;1.6;0;88;1;0.89;0.92;0.86;3;1.8;0.6;0.4;6.8;8.6;0.8;0;3;0
+Tyrone Mings ;28;195;Inghilterra;Difensore;Premier League;Inghilterra ;Aston Villa;3;2;64;0;0;0;0;0;0;0;51.3;0;0.87;0.94;0.73;2;1.7;0.3;0;3;6.3;0.3;0;0;0
+Luke Shaw ;25;178;Inghilterra;Difensore;Premier League;Inghilterra ;Manchester United;6;6;96;0;0;0;1;3;0.5;0;78.2;4;0.85;0.87;0.77;3;0.7;1.5;0.2;4;15.2;1.7;0;0;0
+John Stones ;26;188;Inghilterra;Difensore;Premier League;Inghilterra ;Manchester City;7;7;97;0;0;0;0;0;0.7;1;77.4;0;0.94;0.96;0.89;4;0.7;0.9;0.4;4.6;5.1;0.3;0;0;0
+Kieran Trippier;30;174;Inghilterra;Difensore;LaLiga;Spagna ;Atletico Madrid;5;3;58;0;0;0;0;1;0.2;0;44;1;0.78;0.88;0.67;2;0.6;1;0.2;1.8;10.8;0.4;0.4;0;0
+Kyle Walker;30;183;Inghilterra;Difensore;Premier League;Inghilterra ;Manchester City;6;6;100;0;0;0;0;0;0;0;75;0;0.87;0.88;0.85;4;1.3;0.3;0.2;2.7;11.2;0.2;0;0;0
+Ben White ;23;186;Inghilterra;Difensore;Premier League;Inghilterra ;Brighton & Hove Albion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Jude Bellingham ;17;188;Inghilterra;Centrocampista;Bundesliga;Germania ;Borussia Dortmund;3;0;18;0;0;0;0;0;0;0;13.3;0;0.91;1;0.78;0;0.3;0.7;0.7;2;3.7;3.7;0.3;0;0
+Phil Foden ;20;171;Inghilterra;Centrocampista;Premier League;Inghilterra ;Manchester City;3;2;53;0;0;0;0;0;0.7;0;31.3;0;0.88;0.84;0.84;0;0;0;1;2;6.3;1;0.3;1;0
+Jack Grealish;25;180;Inghilterra;Centrocampista;Premier League;Inghilterra ;Aston Villa;5;1;35;0;0;0;0;2;0.4;0;21.4;2;0.85;0.83;0.82;0;0.2;0;1;3.8;3.8;0.8;0;0;0
+Jordan Henderson ;30;183;Inghilterra;Centrocampista;Premier League;Inghilterra ;Liverpool;5;0;30;0;0;0;1;0;0.2;0;26.8;0;0.88;0.92;0.81;0;0.2;0.2;0.4;1.6;4;0.4;0.2;0;0
+Mason Mount ;22;178;Inghilterra;Centrocampista;Premier League;Inghilterra ;Chelsea;5;5;93;0;0;0;0;1;1.4;1;51.6;3;0.87;0.91;0.76;0;0.2;2.2;1.2;5.2;12.2;1;0;0;0
+Kalvin Phillips ;25;177;Inghilterra;Centrocampista;Premier League;Inghilterra ;Leeds United;7;7;95;0;0;0;0;1;0.6;0;59.6;1;0.86;0.9;0.82;0;1;1.3;0.4;3.9;10.1;1.7;0.1;1;0
+Declan Rice ;22;186;Inghilterra;Centrocampista;Premier League;Inghilterra ;West Ham;7;7;77;0;0;0;0;0;0.1;0;56.3;0;0.9;0.95;0.86;0;1.7;2;0.6;3.6;6.7;0.9;0;1;0
+Bukayo Saka ;19;178;Inghilterra;Centrocampista;Premier League;Inghilterra ;Arsenal;4;3;68;0;0;0;0;0;0;0;38.3;0;0.8;0.88;0.69;0;0.8;0.5;1.3;4.8;12.8;0.8;0;0;0
+﻿Jadon Sancho ;21;180;Inghilterra;Centrocampista;Bundesliga;Germania ;Borussia Dortmund;3;1;0;0;0;0;0;0;0;0;22;0;0.91;1;0.85;0;0.3;0.3;1.3;2.7;3.7;0.3;0.3;0;0
+Dominic Calvert-Lewin ;24;187;Inghilterra;Attaccante;Premier League;Inghilterra ;Everton;2;0;9;0;0;0;0;0;0;0;3;0;0.67;0.67;0;0;0;0;0;0;1;0;0;0;0
+Harry Kane;27;188;Inghilterra;Attaccante;Premier League;Inghilterra ;Tottenham;7;7;93;0;0;0;4;0;2;5;37;1;0.7;0.87;0.66;0;0.4;0.3;1.1;6.3;11.6;0.7;0.3;0;0
+Marcus Rashford ;23;187;Inghilterra;Attaccante;Premier League;Inghilterra ;Manchester United;5;0;17;0;0;0;0;0;0;0;10.8;0;0.81;0.75;0.8;0;0;0.4;0.8;1.4;3;0.2;0;0;0
+Raheem Sterling;26;170;Inghilterra;Attaccante;Premier League;Inghilterra ;Manchester City;7;7;92;0;0;0;3;1;2;0;46.7;2;0.85;0.85;0.83;0;0.6;1;2.9;5.6;12.3;1.1;0.6;0;0
+Lukas Hradecky ;31;190;Finlandia;Portiere;Bundesliga;Germania ;Bayer Leverkusen;3;3;90;1;5;1;0;0;0;0;48.3;0;0.54;0.79;0.29;1;0;0;0;0.3;16.3;0;0;0;0
+Anssi Jaakkola ;34;193;Finlandia;Portiere;English Championship;Inghilterra ;Bristol Rovers;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Jesse Joronen ;28;197;Finlandia;Portiere;Serie B;Italia ;Brescia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Paulus Arajuuri ;32;192;Finlandia;Difensore;1st Division;Cipro ;Pafos;3;3;90;0;0;0;0;0;0.3;0;45;0;0.86;0.93;0.6;1;1.7;0.7;0;5.3;4.3;0.7;0;0;0
+Robert Ivanov ;26;197;Finlandia;Difensore;Ekstraklasa;Polonia ;Warta Poznań;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Thomas Lam ;27;188;Finlandia;Difensore;Eredivisie;Olanda ;Zwolle;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Daniel O'Shaughnessy ;26;190;Finlandia;Difensore;Veikkausliiga;Finlandia ;HJK Helsinki;3;3;90;0;0;0;0;0;0;0;68;0;0.78;0.89;0.63;1;2.7;1.7;0;4.7;14.7;0.3;0;1;0
+Jukka Raitala ;32;181;Finlandia;Difensore;MLS;Stati Uniti ;Minnesota United;3;3;85;0;0;0;0;0;0;0;39,3;0;0.8;0.88;0.61;0;1;1.3;0.7;2.7;9.3;1.7;0;0;0
+Joona Toivio;33;186;Finlandia;Difensore;Allsvenskan;Svezia ;Häcken;3;3;88;0;0;0;0;0;0.3;0;54.7;0;0.8;0.89;0.6;1;2;2.3;0;4.3;8.7;0;0;0;0
+Jere Uronen;26;177;Finlandia;Difensore;Pro League;Belgio ;Genk;3;3;83;0;0;0;0;1;0;0;46.3;1;0.81;0.86;0.77;1;2;0.7;0.3;3.3;9;0.7;0;0;0
+﻿﻿Nicholas Hämäläinen;24;178;Finlandia;Difensore;English Championship;Inghilterra ;QPR;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Sauli Väisänen ;26;188;Finlandia;Difensore;Serie B;Italia ;Chievo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Nikolai Alho ;28;170;Finlandia;Centrocampista;NB 1;Ungheria ;MTK Budapest;1;0;20;0;0;0;0;0;1;0;9;0;0.8;1;0.4;0;1;0;0;0;3;0;0;0;0
+Fredrik Jensen;23;183;Finlandia;Centrocampista;Bundesliga;Germania ;Augsburg;2;0;7;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0.5;0.5;0;0;0;0
+Glen Kamara;25;183;Finlandia;Centrocampista;Premiership;Scozia ;Rangers;3;3;90;0;0;0;0;0;0;0;68.7;0;0.88;0.9;0.86;0;3.3;1.3;1;5;11.7;1;0;1;0
+Joni Kauko;30;185;Finlandia;Centrocampista;Superliga;Danimarca ;Esbjerg;3;0;19;0;0;0;0;0;0.7;0;15;0;0.83;0.92;0.74;0;0;0.3;0.3;2;3;0.7;0;0;0
+Robin Lod;28;180;Finlandia;Centrocampista;MLS;Stati Uniti ;Minnesota United;3;3;90;0;0;0;0;0;0.7;0;52.3;0;0.8;0.87;0.7;0;0.3;3.3;1;6;15.7;1;0.3;1;0
+Rasmus Schüller ;30;180;Finlandia;Centrocampista;Allsvenskan;Svezia ;Djurgården;3;1;37;0;0;0;0;0;0;0;24.7;0;0.8;0.88;0.73;0;2;1.7;0;2.7;4;0.3;0;0;0
+Pyry Soiri ;26;183;Finlandia;Centrocampista;Superliga;Danimarca ;Esbjerg;1;0;15;0;0;0;0;0;0;0;17;0;0.9;0.86;1;0;1;2;0;3;2;0;1;0;0
+Tim Sparv ;34;194;Finlandia;Centrocampista;Super League;Grecia ;Larissa;2;2;68;0;0;0;0;0;0;0;41.5;0;0.88;0.92;0.78;0;2;0.5;0;1;4;1;0;1;0
+﻿Robert Taylor ;26;181;Finlandia;Centrocampista;1st Division;Norvegia ;Brann;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Onni Valakari ;21;187;Finlandia;Centrocampista;Super League;Grecia ;Pafos;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Marcus Forss ;21;182;Finlandia;Attaccante;English Championship;Inghilterra ;Brentford;2;0;6;0;0;0;0;0;0;0;3.5;0;0.5;1;0;0;0;0.5;0;1;2.5;0.5;0;0;0
+Lassi Lappalainen;23;183;Finlandia;Attaccante;MLS;Stati Uniti ;Montréal;1;0;15;0;0;0;0;0;0;0;8;0;1;0;0.67;0;0;0;0;0;3;0;0;0;0
+Joel Pohjanpalo ;26;184;Finlandia;Attaccante;Bundesliga;Germania ;Union Berlin;3;3;81;0;0;0;1;0;2.3;0;27.3;0;0.59;0.75;0.47;0;0.3;0;0.7;4.7;10.7;1.3;0.3;0;0
+Teemu Pukki;31;180;Finlandia;Attaccante;English Championship;Inghilterra ;Norwich;3;3;80;0;0;0;0;0;1.3;0;24.7;0;0.74;0.67;0.77;0;0.3;0.3;1.3;2.7;7.7;1.3;0;0;0
+Hugo Lloris;34;188;Francia;Portiere;Premier League;Inghilterra ;Tottenham;4;4;98;1.5;2;1;0;0;0;0;31.5;0;0.75;0.87;0.48;1;0;0;0;1;5.5;0.3;0;1;0
+Mike Maignan ;25;190;Francia;Portiere;Serie A;Italia ;Milan;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Steve Mandanda﻿;36;185;Francia;Portiere;Ligue 1;Francia ;Olympique Marsiglia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Lucas Digne ;27;178;Francia;Difensore;Premier League;Inghilterra;Everton;2;1;49;0;0;0;0;0;0;0;40.5;1;0.87;0.86;0.8;0;1;0.5;0;3.5;6.5;1;0;0;0
+Léo Dubois ;26;178;Francia;Difensore;Ligue 1;Francia ;Olympique Lione;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Lucas Hernández;25;183;Francia;Difensore;Bundesliga;Germania ;Bayern Monaco;2;2;68;0;0;0;0;0;0;0;51;0;0.85;0.88;0.79;1;0.5;1;0.5;3.5;9;1.5;0;1;0
+Presnel Kimpembe;25;187;Francia;Difensore;Ligue 1;Francia ;Paris Saint-Germain;4;4;98;0;0;0;0;0;0;0;78.5;0;0.94;0.94;0.92;1;0.5;1.8;0.3;4.5;5.3;1.5;0;1;0
+Jules Koundé ;22;180;Francia;Difensore;LaLiga;Spagna ;Siviglia;1;1;90;0;0;0;0;0;0;0;57;0;0.86;0.94;0.75;0;2;1;0;3;9;2;0;0;0
+Clément Lenglet ;25;186;Francia;Difensore;LaLiga;Spagna ;Barcellona;1;1;45;0;0;0;0;0;0;0;52;0;0.93;0.95;0.92;0;2;0;0;3;3;0;0;0;0
+Benjamin Pavard ;25;186;Francia;Difensore;Bundesliga;Germania ;Bayern Monaco;3;3;100;0;0;0;0;0;0.3;0;80;0;0.9;0.88;0.86;1;1.3;4.7;0.3;6.3;10.7;1.7;0;2;0
+Raphaël Varane ;28;191;Francia;Difensore;LaLiga;Spagna ;Real Madrid;4;4;98;0;0;0;0;0;0;1;80.5;0;0.94;0.97;0.9;1;0.8;1;0.3;4;4.8;0.5;0;1;0
+Kurt Zouma ;27;190;Francia;Difensore;Premier League;Inghilterra ;Chelsea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kingsley Coman ;24;178;Francia;Centrocampista;Bundesliga;Germania ;Bayern Monaco;2;0;45;0;0;0;0;0;2;0;30.5;0;0.87;0.92;0.73;0;0.5;1;1;3.5;8.5;0.5;0;1;0
+N'Golo Kanté ;30;169;Francia;Centrocampista;Premier League;Inghilterra ;Chelsea;4;4;98;0;0;0;0;0;0.3;0;77.8;0;0.91;0.93;0.9;0;3.5;2.5;1.5;6;9.3;2;0.3;0;0
+Thomas Lemar;25;170;Francia;Centrocampista;LaLiga;Spagna ;Atletico Madrid;1;0;8;0;0;0;0;0;0;0;7;0;0.83;1;0.83;0;0;0;0;0;1;0;0;0;0
+Paul Pogba ;29;191;Francia;Centrocampista;Premier League;Inghilterra ;Manchester United;4;4;94;0;0;0;1;1;2;0;88;3;0.88;0.92;0.85;0;1;2;2.3;8.3;15;1.8;0.3;0;0
+Adrien Rabiot;26;188;Francia;Centrocampista;Serie A;Italia ;Juventus;4;3;76;0;0;0;0;0;0.8;0;61;0;0.89;0.9;0.87;0;1.5;1.8;0.5;3.8;8.8;1.8;0.3;0;0
+Moussa Sissoko;31;187;Francia;Centrocampista;Premier League;Inghilterra ;Tottenham;2;0;20;0;0;0;0;0;0.5;0;9.5;0;0.75;0.75;0;0;0;0;0;1;2;0;0;0;0
+Corentin Tolisso ;26;181;Francia;Centrocampista;Bundesliga;Germania ;Bayern Monaco;3;1;30;0;0;0;0;0;0.3;0;25;0;0.97;1;0.95;0;0.3;0;0;0.7;2;0.3;0;0;0
+Wissam Ben Yedder ;30;170;Francia;Attaccante;Ligue 1;Francia ;Monaco;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Karim Benzema;33;184;Francia;Attaccante;LaLiga;Spagna ;Real Madrid;4;4;87;0;0;0;4;0;2.8;1;47.3;0;0.88;0.98;0.84;0;0.3;0.3;1.8;2.5;9.5;0;0;0;0
+Ousmane Dembélé;23;178;Francia;Attaccante;LaLiga;Spagna ;Barcellona;2;0;16;0;0;0;0;0;0.5;0;8;0;0.75;0;0.55;0;0;0;0;0.5;4;0;0;0;0
+Olivier Giroud ;34;192;Francia;Attaccante;Premier League;Inghilterra ;Chelsea;2;0;20;0;0;0;0;0;1;0;8.5;1;0.78;1;0.6;0;0;0;0;1;2.5;0.5;0;0;0
+Antoine Griezmann ;30;176;Francia;Attaccante;LaLiga;Spagna ;Barcellona;4;4;89;0;0;0;1;0;1.8;1;60.8;1;0.86;0.93;0.76;0;0.5;1.8;0.8;4.3;12;0.5;0.5;1;0
+Kylian Mbappé ;22;178;Francia;Attaccante;Ligue 1;Francia ;Paris Saint-Germain;4;4;98;0;0;0;0;1;3.5;4;45.8;3;0.88;1;0.74;0;0.3;0;2.5;3.8;15.5;0.5;1;0;0
+Marcus Thuram;23;192;Francia;Attaccante;Bundesliga;Germania ;Borussia Mönchengladbach;1;0;9;0;0;0;0;0;0;0;6;0;1;0;0.67;0;0;0;1;1;2;1;0;0;0
+Manuel Neuer;35;193;Germania;Portiere;Bundesliga;Germania ;Bayern Monaco;4;4;90;1.8;1.3;0;0;0;0;0;38.3;0;0.83;0.88;0.42;0;0;0;0;0.3;5.3;0;0;0;0
+Bernd Leno ;29;190;Germania;Portiere;Premier League;Inghilterra ;Arsenal;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kevin Trapp;30;189;Germania;Portiere;Bundesliga;Germania ;Eintracht Frankfurt;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Emre Can ;27;189;Germania;Difensore;Bundesliga;Germania ;Borussia Dortmund;3;0;15;0;0;0;0;0;0;0;16.7;0;0.89;0.89;0.88;0;0;0.3;0;0.7;2.3;0;0;0;0
+Matthias Ginter ;27;189;Germania;Difensore;Bundesliga;Germania ;Borussia Mönchengladbach;4;4;87;0;0;0;0;0;0.3;1;83;0;0.91;0.94;0.83;0;0.8;1.5;0;4.3;9.8;1;0;2;0
+Robin Gosens ;26;183;Germania;Difensore;Serie A;Italia ;Atalanta;4;4;80;0;0;0;1;1;1.3;0;55.8;2;0.81;0.87;0.74;0;1;0.3;0;1.5;11.3;0.8;0;1;0
+Christian Günter ;28;184;Germania;Difensore;Bundesliga;Germania ;Friburgo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Marcel Halstenberg ;29;187;Germania;Difensore;Bundesliga;Germania ;Leipzig;1;0;28;0;0;0;0;0;1;0;14;0;0.75;1;0.5;0;0;0;0;1;3;0;0;0;0
+Mats Hummels ;32;191;Germania;Difensore;Bundesliga;Germania ;Borussia Dortmund;4;4;83;0;0;0;0;1;1.3;0;90.3;1;0.93;0.97;0.89;0;2.5;1.8;0;6.8;6;0.3;0;0;0
+Lukas Klostermann ;24;188;Germania;Difensore;Bundesliga;Germania ;Leipzig;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Robin Koch ;23;190;Germania;Difensore;Premier League;Inghilterra ;Leeds United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Antonio Rüdiger;28;191;Germania;Difensore;Premier League;Inghilterra ;Chelsea;4;4;90;0;0;0;0;0;0.5;0;82;0;0.93;0.96;0.89;0;0.3;0.5;0;2;6.3;0.8;0;0;0
+Niklas Süle ;25;195;Germania;Difensore;Bundesliga;Germania ;Bayern Monaco;1;0;17;0;0;0;0;0;0;0;9;0;0.88;0.86;1;0;0;0;0;0;1;0;0;0;0
+Serge Gnabry;25;176;Germania;Centrocampista;Bundesliga;Germania ;Bayern Monaco;4;3;63;0;0;0;0;0;1;1;28.3;0;0.79;0.95;0.7;0;0;0.5;1.3;2;8.3;1;0.3;0;0
+Leon Goretzka;26;189;Germania;Centrocampista;Bundesliga;Germania ;Bayern Monaco;3;1;46;0;0;0;1;0;1.7;0;31;0;0.91;0.94;0.88;0;0.3;0.7;0.3;1.7;3.3;1;0;0;0
+İlkay Gündoğan ;30;180;Germania;Centrocampista;Premier League;Inghilterra ;Manchester City;3;3;74;0;0;0;0;0;0.3;0;68;0;0.93;0.97;0.91;0;0.3;2;0;2.7;5;1;0.3;1;0
+Jonas Hofmann ;28;176;Germania;Centrocampista;Bundesliga;Germania ;Borussia Mönchengladbach;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Joshua Kimmich ;26;176;Germania;Centrocampista;Bundesliga;Germania ;Bayern Monaco;4;4;90;0;0;0;0;1;0.3;0;73.5;1;0.88;0.91;0.78;0;0.3;0.8;0.3;2.8;13.8;0.5;0.3;1;0
+Toni Kroos;31;183;Germania;Centrocampista;LaLiga;Spagna ;Real Madrid;4;4;90;0;0;0;0;0;1;0;111.5;0;0.93;0.98;0.87;1.8;3.3;0.5;5.5;12;1.5;0;0;0;0
+﻿﻿Jamal Musiala;18;180;Germania;Centrocampista;Bundesliga;Germania ;Bayern Monaco;2;0;5;0;0;0;0;0;0;0;6;0;1;0;1;0;0;0.5;0;1;2;0;0;0;0
+﻿﻿﻿Florian Neuhaus ;24;185;Germania;Centrocampista;Bundesliga;Germania ;Borussia Mönchengladbach;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Leroy Sané ;25;184;Germania;Centrocampista;Bundesliga;Germania ;Bayern Monaco;4;1;31;0;0;0;0;0;0.3;0;21.5;0;0.86;0.78;0.8;0;0;0;0.8;1.5;5.8;0.3;0.3;1;0
+Kai Havertz ;21;188;Germania;Attaccante;Premier League;Inghilterra ;Chelsea;4;4;76;0;0;0;2;0;2.8;1;43;2;0.84;0.92;0.78;0;0;0.3;0.5;3;11;2.3;0;1;0
+Thomas Müller;31;186;Germania;Attaccante;Bundesliga;Germania ;Bayern Monaco;4;3;73;0;0;0;0;0;1.5;1;47;1;0.78;0.86;0.74;0;0.5;1;0.8;3.5;12;0.8;0.3;0;0
+Kevin Volland;28;179;Germania;Attaccante;Ligue 1;Francia ;Monaco;2;0;10;0;0;0;0;0;5;0;5;0;0.86;1;0.67;0;0;0;0;1;1;0;0;0;0
+Timo Werner ;25;180;Germania;Attaccante;Premier League;Inghilterra ;Chelsea;3;1;36;0;0;0;0;0;0.7;1;15.7;1;0.79;0.82;0.68;0;0;0;0;0;5.7;0;0.7;0;0
+Ádám Bogdán;33;194;Ungheria;Portiere;NB 1;Ungheria ;Ferencváros;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Dénes Dibusz ;30;188;Ungheria;Portiere;NB 1;Ungheria ;Ferencváros;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Péter Gulácsi;30;190;Ungheria;Portiere;Bundesliga;Germania ;Leipzig;3;3;90;2;3.7;0;0;0;0;0;39.3;0;0.77;0.9;0.36;0;0;0;0;0;7;0;0;0;0
+Bendegúz Bolla ;21;179;Ungheria;Difensore;NB 1;Ungheria ;Fehérvár;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Endre Botka ;26;180;Ungheria;Difensore;NB 1;Ungheria ;Ferencváros;3;3;90;0;0;0;0;0;0;0;38.3;0;0.63;0.77;0.36;0;2;2.7;0;3.7;11;1.3;0;2;0
+Attila Fiola ;31;182;Ungheria;Difensore;NB 1;Ungheria ;Fehérvár;3;3;89;0;0;0;1;0;0.7;0;47.3;0;0.71;0.68;0.71;0;0.3;3;0.7;4.3;12.3;3;0;1;0
+﻿﻿Ákos Kecskés;25;188;Ungheria;Difensore;Super League;Austria ;Lugano;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ádám Lang ;28;188;Ungheria;Difensore;1st Division;Cipro ;Omonoia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Gergő Lovrencsics;32;177;Ungheria;Difensore;NB 1;Ungheria ;Ferencváros;3;1;34;0;0;0;0;0;0;0;19.7;0;0.68;0.68;0.67;0;0.7;0.7;0.3;1;5.7;0.3;0;0;0
+Loïc Négo;30;179;Ungheria;Difensore;NB 1;Ungheria ;Fehérvár;3;2;68;0;0;0;0;0;0.3;0;29.7;0;0.79;0.88;0.64;0;0.3;1.7;0;2.7;6.7;0.7;0;1;0
+Willi Orbán ;28;186;Ungheria;Difensore;Bundesliga;Germania ;Leipzig;3;3;90;0;0;0;0;0;0;0;40.3;0;0.82;0.91;0.44;0;0;1.3;0;4.3;6;0.3;0;1;0
+Attila Szalai;23;192;Ungheria;Difensore;Süper Lig;Turchia ;Fenerbahçe;3;3;90;0;0;0;0;0;0;0;53.7;0;0.76;0.86;0.49;0;0.3;1.7;0;2;11.7;1;0;0;0
+Tamás Cseri ;33;174;Ungheria;Centrocampista;NB 1;Ungheria ;Mezőkövesd;1;0;15;0;0;0;0;0;0;0;5;0;1;1;0;0;0;0;0;0;2;0;0;0;0
+﻿Dániel Gazdag ;25;178;Ungheria;Centrocampista;MLS;Stati Uniti ;Philadelphia Union;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+László Kleinheisler ;27;173;Ungheria;Centrocampista;1. HNL;Croazia ;Osijek;3;3;84;0;0;0;0;0;0;0;39.7;0;0.78;0.85;0.52;0;1.3;1.3;1;6;13;0.3;0;0;0
+Ádám Nagy;25;178;Ungheria;Centrocampista;English Championship;Inghilterra ;Bristol City;3;3;89;0;0;0;0;0;0;0;47.3;0;0.82;0.88;0.7;0;1.3;2;1.3;3.7;8.3;0.7;0;0;0
+András Schäfer;22;179;Ungheria;Centrocampista;Superliga;Slovacchia ;Dunajská Streda;3;3;77;0;0;0;1;0;0.7;0;33.7;0;0.87;0.95;0.75;0;2;0.7;1;3;6;1.3;0;0;0
+﻿Dávid Sigér;30;175;Ungheria;Centrocampista;NB 1;Ungheria ;Ferencváros;1;0;12;0;0;0;0;0;0;0;9;0;0.67;0.8;0;0;0;0;1;1;3;0;0;0;0
+Kevin Varga ;25;178;Ungheria;Centrocampista;Süper Lig;Turchia ;Kasımpaşa;1;0;2;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;2;0;0;0;0
+Roland Varga ;31;182;Ungheria;Centrocampista;NB 1;Ungheria ;MTK Budapest;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+﻿﻿János Hahn ;26;183;Ungheria;Attaccante;NB 1;Ungheria ;Paks;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Filip Holender ;26;180;Ungheria;Attaccante;Superliga;Serbia ;Partizan;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Nemanja Nikolić ;33;180;Ungheria;Attaccante;NB 1;Ungheria ;Fehérvár;2;0;33;0;0;0;0;0;0;0;12;0;0.79;1;0.5;0;0;1;0;1.5;4;0.5;0;0;0
+Roland Sallai ;23;182;Ungheria;Attaccante;Bundesliga;Germania ;Friburgo;3;3;81;0;0;0;0;2;2.7;0;28;2;0.76;0.67;0.73;0;0;0;0.7;4.7;7.7;1.7;0;0;0
+Szabolcs Schön;20;173;Ungheria;Attaccante;MLS;Stati Uniti ;FC Dallas;2;0;14;0;0;0;0;0;0;0;5;0;0.83;1;0.5;0;0;0;1;1;1.5;0;0.5;0;0
+Ádám Szalai;34;193;Ungheria;Attaccante;Bundesliga;Germania ;Mainz;3;3;66;0;0;0;1;1;1.7;0;31;1;0.65;0.69;0.53;0;0.7;0.3;1.3;5.7;14;1.3;0.3;0;0
+Gianluigi Donnarumma ;22;196;Italia;Portiere; Serie A;Italia ;Milan;7;7;103;0.6;1.4;0;0;0;0;0;38.1;0;0.81;0.9;0.34;2;0.3;0;0;1.1;5,6;0;0;0;0
+Alex Meret ;24;190;Italia;Portiere; Serie A;Italia ;Napoli;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Salvatore Sirigu;34;192;Italia;Portiere; Serie A;Italia ;Torino;1;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Francesco Acerbi ;34;192;Italia;Difensore; Serie A;Italia ;Lazio;3;1;77;0;0;0;0;1;0.3;0;68.7;1;0.93;0.97;0.88;0;2;0.7;0;3.7;4.3;0;0;0;0
+Alessandro Bastoni ;22;190;Italia;Difensore; Serie A;Italia ;Inter;1;1;90;0;0;0;0;0;0;0;93;0;0.93;0.94;0.92;1;0;1;0;8;7;5;0;0;0
+Leonardo Bonucci;33;190;Italia;Difensore; Serie A;Italia ;Juventus;7;7;90;0;0;0;1;0;0.7;0;78.3;0;0.88;0.94;0.79;2;1.7;0.6;0.3;2.9;10.1;0.3;0.1;2;0
+Giorgio Chiellini ;36;187;Italia;Difensore; Serie A;Italia ;Juventus;5;5;89;0;0;0;0;0;0.4;0;73.8;0;0.9;0.91;0.89;1;1.8;1;0;3.8;7.6;1;0.2;1;0
+Giovanni Di Lorenzo;28;182;Italia;Difensore; Serie A;Italia ;Napoli;6;5;98;0;0;0;0;0;0;1;76.7;0;0.84;0.87;0.78;1;1.3;3.2;0.7;8.2;11.3;2.2;0;1;0
+Emerson ;27;176;Italia;Difensore;Premier League;Inghilterra;Chelsea;4;3;73;0;0;0;0;0;0.8;0;47.8;0;0.87;0.86;0.82;1;0.3;1.8;1;4.3;8.8;0.8;0.5;0;0
+Alessandro Florenzi ;30;173;Italia;Difensore;Ligue 1;Francia;Paris Saint-Germain;2;1;24;0;0;0;0;0;0;0;29;0;0.87;0.85;0.81;0;0.5;0;0;0.5;5;1;0;0;0
+Leonardo Spinazzola;28;185;Italia;Difensore; Serie A;Italia ;Roma;4;4;95;0;0;0;0;1;1.8;2;68;2;0.89;0.86;0.86;0;1;0.3;1.8;2.8;13.3;0.3;0;0;0
+Rafael Tolói ;30;185;Italia;Difensore; Serie A;Italia ;Atalanta;4;1;39;0;0;0;0;1;0.5;0;27.5;0;0.87;0.94;0.78;1;0.5;1;0;1.5;4.3;1;0;1;0
+Nicolò Barella ;24;172;Italia;Centrocampista; Serie A;Italia ;Inter;6;6;79;0;0;0;1;2;0.8;0;53.2;0;0.83;0.75;0.85;0;0.3;1;1.2;4;11.2;1;0.2;2;0
+Federico Bernardeschi;27;185;Italia;Centrocampista; Serie A;Italia ;Juventus;4;1;33;0;0;0;0;0;1;0;19.8;0;0.69;0.5;0.62;0;0.5;0.5;0.8;2;7;0;0.3;0;0
+Federico Chiesa;23;175;Italia;Centrocampista; Serie A;Italia ;Juventus;7;4;63;0;0;0;2;0;2.4;0;25.9;3;0.8;0.89;0.72;0;0;0.9;1.3;2.9;7.7;0.7;0;0;0
+Bryan Cristante;26;186;Italia;Centrocampista; Serie A;Italia ;Roma;6;0;21;0;0;0;0;0;0.3;0;15.3;1;0.81;0.77;0.81;0;0.2;0.3;0;1;3.7;0.3;0.2;0;0
+Jorginho;29;180;Italia;Centrocampista;Premier League;Inghilterra;Chelsea;7;7;101;0;0;0;0;0;0;0;88.6;0;0.93;0.95;0.92;0;3.6;1.9;1;5.9;6.6;1.6;0;1;0
+Manuel Locatelli   ;23;185;Italia;Centrocampista; Serie A;Italia ;Sassuolo;5;2;54;0;0;0;2;0;1;0;34.8;0;0.89;0.93;0.85;0;0.4;1.6;0.2;2.4;4.8;1.4;0;0;0
+Matteo Pessina  ;24;183;Italia;Centrocampista; Serie A;Italia ;Atalanta;4;1;49;0;0;0;2;0;1;1;21.8;0;0.78;0.93;0.73;0;0.5;0.5;1.3;2.5;4.5;0.5;0.3;1;0
+Marco Verratti;28;165;Italia;Centrocampista;Ligue 1;Francia ;Paris Saint-Germain;5;5;80;0;0;0;0;2;0.8;1;102;2;0.93;0.92;0.93;0;1.2;3.6;1;8;10.2;1.6;0;1;0
+Gaetano Castrovilli ;24;185;Italia;Centrocampista; Serie A;Italia ;Fiorentina;1;0;3;0;0;0;0;0;0;0;5;0;1;1;1;0;0;0;0;0;2;0;0;0;0
+Andrea Belotti ;27;181;Italia;Attaccante; Serie A;Italia ;Torino;6;1;36;0;0;0;0;0;1.5;1;14.5;0;0.65;0.93;0.43;0;0.2;0.5;0.3;3.5;5;0.3;1.2;0;0
+Domenico Berardi;26;185;Italia;Attaccante; Serie A;Italia ;Sassuolo;6;3;62;0;0;0;0;1;2.3;2;34.8;1;0.74;0.71;0.71;0;0.8;0.2;0.2;1.7;10.5;1.2;0.5;1;0
+Ciro Immobile;31;185;Italia;Attaccante; Serie A;Italia ;Lazio;6;6;74;0;0;0;2;2;3;3;32.7;1;0.8;0.85;0.78;0;0;0.2;0.2;1.2;9.3;1;0;0;0
+Lorenzo Insigne ;29;163;Italia;Attaccante; Serie A;Italia ;Napoli;6;6;85;0;0;0;2;0;3.2;0;67.5;3;0.81;0.9;0.74;0;0.5;0.2;0.8;1.7;17.3;0.2;0.7;1;0
+Giacomo Raspadori;21;172;Italia;Attaccante; Serie A;Italia ;Sassuolo;1;0;15;0;0;0;0;0;1;0;9;0;0.6;0.67;0.67;0;0;0;0;0;2;1;0;0;0
+Marco Bizot ;30;194;Olanda;Portiere;Eredivisie;Olanda;AZ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Tim Krul  ;33;193;Olanda;Portiere;Premier League;Inghilterra;Norwich;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Maarten Stekelenburg ;38;197;Olanda;Portiere;Eredivisie;Olanda;Ajax;4;4;90;1;2;0;0;0;0;0;38;0;0.62;0.89;0.25;3;0;0;0;0;12.3;0;0;0;0
+﻿Nathan Aké ;27;180;Olanda;Difensore;Premier League;Inghilterra;Manchester City;2;0;26;0;0;0;0;1;0.5;0;20;0;0.91;1;0.81;0;1;0;0;1;1.5;0;0;0;0
+Daley Blind;31;180;Olanda;Difensore;Eredivisie;Olanda;Ajax;4;4;75;0;0;0;0;0;0;0;85;1;0.88;0.92;0.85;1;1;2.3;0.8;3.5;10;0.3;0;0;0
+Matthijs de Ligt;21;188;Olanda;Difensore;Serie A;Italia;Juventus;3;3;78;0;0;0;0;0;1.3;2;56;0;0.91;0.95;0.75;2;0.3;2.3;0.3;4.3;5.3;1;0;0;1
+Stefan de Vrij;30;188;Olanda;Difensore;Serie A;Italia;Inter;4;4;79;0;0;0;0;0;0.3;1;60;0;0.86;0.92;0.75;1;0.8;2;0.3;3.5;8.3;1;0;0;0
+Denzel Dumfries;25;189;Olanda;Difensore;Eredivisie;Olanda;PSV;4;4;79;0;0;0;2;0;1.5;3;46.3;0;0.74;0.83;0.67;0;0.5;1.3;1;7;14.5;0.8;0.3;1;0
+Patrick van Aanholt  ;30;175;Olanda;Difensore;Premier League;Inghilterra;Crystal Palace;4;4;75;0;0;0;0;0;1;1;52.8;0;0.78;0.92;0.68;1;0.8;0.8;0.3;1.8;11.8;1;0.3;0;0
+Joël Veltman ;29;184;Olanda;Difensore;Premier League;Inghilterra;Brighton & Hove Albion;1;0;8;0;0;0;0;0;0;0;7;0;0.86;0.67;1;0;0;0;0;0;1;0;0;0;0
+Owen Wijndal;21;174;Olanda;Difensore;Eredivisie;Olanda;AZ;2;0;26;0;0;0;0;0;0;0;15;0;0.8;0.67;0.75;0;0.5;0;0;0.5;4;0.5;0;0;0
+Frenkie de Jong ;23;180;Olanda;Centrocampista;LaLiga;Spagna;Barcellona;4;4;87;0;0;0;0;0;0;0;83.5;1;0.86;0.92;0.82;0;2;1.5;4;7.8;12.3;0.5;0;1;0
+Marten de Roon;30;185;Olanda;Centrocampista;Serie A;Italia;Atalanta;3;3;79;0;0;0;0;0;0.3;0;58;0;0.8;0.84;0.76;0;1;1;0;3;11.7;0.7;0;1;0
+Ryan Gravenberch;18;190;Olanda;Centrocampista;Eredivisie;Olanda;Ajax;2;1;53;0;0;0;0;0;1;0;60;0;0.84;0.95;0.78;0;2.5;1.5;1.5;3.5;9.5;0;0;0;0
+﻿Davy Klaassen ;28;179;Olanda;Centrocampista;Eredivisie;Olanda;Ajax;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Teun Koopmeiners;23;183;Olanda;Centrocampista;Eredivisie;Olanda;AZ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Quincy Promes;29;175;Olanda;Centrocampista;Premier Liga;Russia;Sparta Mosca;2;0;29;0;0;0;0;0;0.5;0;22.5;0;0.79;0.57;0.82;0;0;0;0;1;6;1;0.5;0;0
+Jurriën Timber;19;182;Olanda;Centrocampista;Eredivisie;Olanda;Ajax;3;1;47;0;0;0;0;0;0.3;0;44.7;0;0.93;0.96;0.89;0;0.3;1.7;0.7;2.7;4.7;0.3;0;0;0
+Georginio Wijnaldum;30;175;Olanda;Centrocampista;Premier League;Inghilterra;Liverpool;4;4;90;0;0;0;3;0;2.5;0;46.3;1;0.87;0.93;0.84;0;0.8;1.8;1.3;5.3;9.8;1;0;0;0
+Steven Berghuis ;29;182;Olanda;Attaccante;Eredivisie;Olanda;Feyenoord;2;0;27;0;0;0;0;0;0.5;0;23;0;0.59;0.71;0.46;0;0;1;0;2;9.5;0.5;0;0;0
+Luuk de Jong;30;188;Olanda;Attaccante;LaLiga;Spagna;Sevilla;2;0;8;0;0;0;0;0;0;0;8;0;0.73;0.67;0.75;0;0;0;0;2;2;0;0;0;0
+Memphis Depay ;28;176;Olanda;Attaccante;Ligue 1;Francia;Olympique Lione;4;4;82;0;0;0;2;1;3;2;62;3;0.78;0.89;0.68;0;0.3;0;2;4.5;20.5;0.8;0.8;0;0
+Cody Gakpo ;21;187;Olanda;Attaccante;Eredivisie;Olanda;PSV;1;0;11;0;0;0;0;0;0;0;12;0;0.71;1;0.67;0;0;1;1;2;3;0;0;0;0
+Donyell Malen;22;180;Olanda;Attaccante;Eredivisie;Olanda;PSV;4;2;38;0;0;0;0;2;0.8;1;20.3;4;0.87;1;0.79;0;0;0;1;2.3;5.8;0.3;0.3;0;0
+Wout Weghorst;28;197;Olanda;Attaccante;Bundesliga;Germania;Wolfsburg;4;2;48;0;0;0;1;0;1.3;1;18.5;1;0.65;0.91;0.59;0;0;0.8;0;2.8;6.3;1.8;0.5;0;0
+Stole Dimitrievski;27;188;Macedonia del Nord;Portiere;LaLiga;Spagna;Rayo Vallecano;3;3;90;2.7;4.3;1;0;0;0;0;43;0;0.72;0.96;0.38;0;0.3;0.3;1.7;7.7;0;0;0;0;0
+Risto Jankov;22;190;Macedonia del Nord;Portiere;1. MFL;Macedonia del Nord;Rabotnicki;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Damjan Shishkovski;26;193;Macedonia del Nord;Portiere;1st Division;Cipro;Doxa Katokopia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ezgjan Alioski ;29;173;Macedonia del Nord;Difensore;Premier League;Inghilterra;Leeds United;3;3;90;0;0;0;1;0;1;1;73.3;1;0.72;0.84;0.57;0;0.3;3;0;4.7;23.7;1.7;0;2;0
+Egzon Bejtulai ;27;182;Macedonia del Nord;Difensore;1. MFL;Macedonia del Nord;Shkëndija;1;0;26;0;0;0;0;0;0;0;15;0;0.67;0.86;0.33;0;1;0;0;2;5;0;0;0;0
+Visar Musliu;26;186;Macedonia del Nord;Difensore;NB 1;Ungheria ;Fehérvár;3;3;89;0;0;0;0;0;0.3;1;46.7;0;0.86;0.88;0.79;0;1;1.7;0;4.3;5.7;1.7;0;1;0
+Kire Ristevski;30;188;Macedonia del Nord;Difensore;NB 1;Ungheria ;Újpest;1;0;5;0;0;0;0;0;0;0;9;0;1;1;1;0;1;1;0;1;0;0;0;0;0
+Stefan Ristovski;29;180;Macedonia del Nord;Difensore;1. HNL;Croazia;Dinamo Zagreb;3;3;90;0;0;0;0;0;0.7;0;66.7;0;0.78;0.84;0.67;0;2.7;2.7;0.3;4.3;14.3;1;0;1;0
+Darko Velkovski;25;188;Macedonia del Nord;Difensore;1. HNL;Croazia;Rijeka;3;3;88;0;0;0;0;0;0.3;1;53.3;0;0.84;0.87;0.74;0;1.7;2;0.3;3.3;7.3;1.3;0;1;0
+﻿﻿Gjoko Zajkov ;26;186;Macedonia del Nord;Difensore;Pro League;Belgio;Charleroi;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Arijan Ademi ;29;183;Macedonia del Nord;Centrocampista;1. HNL;Croazia;Dinamo Zagreb;3;3;85;0;0;0;0;0;0.3;0;46;0;0.86;0.86;0.85;0;2.3;2.7;0.7;5;8;0;0;0;0
+Enis Bardhi;25;172;Macedonia del Nord;Centrocampista;LaLiga;Spagna;Levante;3;3;79;0;0;0;0;0;1.7;0;53.3;1;0.85;0.89;0.81;0;0.7;1.3;2;5.3;11;0.7;0;0;0
+Darko Churlinov;20;180;Macedonia del Nord;Centrocampista;Bundesliga;Germania;Stuttgart;2;0;40;0;0;0;0;0;0;0;14.5;0;0.73;0.6;0.75;0;0.5;1;0.5;1.5;6.5;0;0.5;0;0
+Eljif Elmas;21;182;Macedonia del Nord;Centrocampista;Serie A;Italia;Napoli;3;3;90;0;0;0;0;0;2;0;50.7;0;0.9;0.91;0.88;0;0.7;1.3;1.7;4.3;9.3;0.7;0;0;0
+Ferhan Hasani ;30;188;Macedonia del Nord;Centrocampista;Kategoria Superiore;Albania;Partizani;1;0;22;0;0;0;0;0;0;0;11;0;0.71;1;0.57;0;0;1;0;1;5;0;0;0;0
+Tihomir Kostadinov ;25;178;Macedonia del Nord;Centrocampista;Superliga;Slovacchia;Ružomberok;2;0;24;0;0;0;0;0;0;0;14;0;0.74;0.9;0.56;0;1;0.5;0;1;3;0.5;0;1;0
+Boban Nikolov ;26;180;Macedonia del Nord;Centrocampista;Serie B;Italia;Lecce;3;2;40;0;0;0;0;0;1.3;0;18.3;0;0.71;0.71;0.69;0;0;1;0.3;1.7;4.7;0;0;0;0
+Milan Ristovski;23;188;Macedonia del Nord;Centrocampista;Superliga;Repubblica Ceca ;Spartak Trnava;1;0;9;0;0;0;0;0;0;0;3;0;1;1;0;0;0;0;0;1;0;0;0;0;0
+Stefan Spirovski ;30;185;Macedonia del Nord;Centrocampista;1st Division;Cipro;AEK Larnaca;1;1;45;0;0;0;0;0;0;0;24;0;0.88;0.88;0.88;0;2;1;0;1;3;1;0;0;0
+Daniel Avramovski;26;184;Macedonia del Nord;Attaccante;Süper Lig;Turchia;Kayserispor;1;0;13;0;0;0;0;0;1;0;7;0;1;1;0;0;0;1;0;2;0;2;0;1;0
+Goran Pandev;37;184;Macedonia del Nord;Attaccante;Serie A;Italia;Genoa;3;3;83;0;0;0;1;0;0.7;0;36.7;0;0.69;0.85;0.61;0;0.3;0.3;1;4.7;14.7;0.3;0.3;0;0
+Marjan Radeski ;26;180;Macedonia del Nord;Attaccante;1. MFL;Macedonia del Nord;Akademija Pandev;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Vlatko Stojanovski ;24;184;Macedonia del Nord;Attaccante;Ligue 2;Francia;Chambly;1;0;12;0;0;0;0;0;1;0;3;0;1;0;0.1;0;0;0;0;0;0;0;0;0;0
+Aleksandar Trajkovski;28;179;Macedonia del Nord;Attaccante;LaLiga 2;Spagna;Mallorca;3;2;59;0;0;0;0;1;2;0;31.7;1;0.82;0.89;0.78;0.7;0.3;0.7;1.3;11;2.3;0;0;1;0
+Ivan Tričkovski ;34;182;Macedonia del Nord;Attaccante;1st Division;Cipro;AEK Larnaca;3;1;23;0;0;0;0;0;0;0;9.3;0;0.78;0.75;0.8;0;0;0;0;0.3;2.7;0;0.3;0;0
+﻿﻿Krste Velkoski;33;178;Macedonia del Nord;Attaccante;Premijer Liga;Bosnia ed Erzegovina;Sarajevo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Łukasz Fabiański;36;190;Polonia;Portiere;Premier League;Inghilterra;West Ham;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Łukasz Skorupski ;29;187;Polonia;Portiere;Serie A;Italia;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wojciech Szczęsny ;31;196;Polonia;Portiere;Serie A;Italia;Juventus;3;3;90;2;2;0;0;0;0;0;26.3;0;0.57;0.9;0.4;0;0;0;0;0.3;9;0;0;0;0
+Jan Bednarek ;25;189;Polonia;Difensore;Premier League;Inghilerra;Southampton;3;3;88;0;0;0;0;0;0.3;0;67.3;0;0.9;0.95;0.83;0;2;2.7;0;5;5.7;0.3;0;0;0
+Bartosz Bereszyński ;28;182;Polonia;Difensore;Serie A;Italia;Sampdoria;3;3;90;0;0;0;0;0;0.7;0;83;0;0.8;0.81;0.77;0;3;2.7;0.7;6.3;14.7;0.7;0;0;0
+Kamil Glik;33;190;Polonia;Difensore;Serie A;Italia;Benevento;3;3;90;0;0;0;0;0;0.3;0;60.7;0;0.82;0.9;0.63;0;2;0.7;0;8.7;8.7;2;0;1;0
+Michał Helik ;25;191;Polonia;Difensore;English Championship;Inghilterra;Barnsley;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Tomasz Kędziora ;26;184;Polonia;Difensore;Premier League;Ucraina;Dynamo Kyiv;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kamil Piątkowski;20;191;Polonia;Difensore;Ekstraklasa;Polonia;Raków Częstochowa;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Tymoteusz Puchacz ;22;180;Polonia;Difensore;Ekstraklasa;Polonia;Lech Poznań;3;2;50;0;0;0;0;0;0.3;0;30.7;0;0.65;0.69;0.48;0;1.3;1;1.3;5.3;11.3;0.7;0;0;0
+Maciej Rybus ;31;172;Polonia;Difensore;Premier Liga;Russia;Lokomotiv Mosca;1;1;74;0;0;0;0;1;1;0;52;1;0.88;0.8;0.77;0;0;0;0;3;12;4;0;0;0
+Paweł Dawidowicz ;25;188;Polonia;Centrocampista;Serie A;Italia;Verona;1;0;10;0;0;0;0;0;0;0;2;0;0.5;0.5;0;0;0;0;0;0;1;0;0;0;0
+Przemysław Frankowski ;26;176;Polonia;Centrocampista;MLS;Stati Uniti;Chicago Fire;3;0;28;0;0;0;0;1;0;0;18.3;1;0.82;1;0.74;0;0;0.3;0;0.3;3.3;0.3;0;0;0
+Kamil Jóźwiak ;23;176;Polonia;Centrocampista;English Championship;Inghilterra;Derby;3;3;80;0;0;0;0;1;0;0;58.7;0;0.78;0.89;0.65;0;0.3;1;1.3;5;16.7;1.7;1;0;0
+Mateusz Klich;30;183;Polonia;Centrocampista;Premier League;Inghilterra;Leeds United;3;3;71;0;0;0;0;0;0.3;0;46;0;0.75;0.88;0.61;0;0.3;1.7;0;2.3;13.7;1.3;0;1;0
+Kacper Kozłowski;17;177;Polonia;Centrocampista;Ekstraklasa;Polonia;Pogoń Szczecin;2;0;26;0;0;0;0;0;0;0;14.5;0;0.83;0.86;0.82;0;0;0;1;2;4;0;0.5;0;0
+Grzegorz Krychowiak ;31;187;Polonia;Centrocampista;Premier Liga;Russia;Lokomotiv Mosca;2;2;70;0;0;0;0;0;2;0;55.5;0;0.8;0.9;0.7;0;1;2.5;0;6;11.5;2;0;1;1
+Karol Linetty ;26;176;Polonia;Centrocampista;Serie A;Italia;Torino;2;1;42;0;0;0;1;0;1.5;0;23;0;0.78;0.88;0.75;0;1;0.5;0.5;1.5;4.5;1.5;0;0;0
+Jakub Moder ;22;188;Polonia;Centrocampista;Premier League;Inghilterra;Brighton & Hove Albion;2;1;45;0;0;0;0;0;0;0;21.5;0;0.56;0.43;0.57;0;0;0.5;1.5;4;7.5;1.5;0;1;0
+Przemysław Płacheta;23;178;Polonia;Centrocampista;English Championship;Inghilterra;Norwich;1;0;12;0;0;0;0;0;1;0;14;0;0.5;0.67;0.25;0;0;0;0;0;9;0;0;0;0
+Piotr Zieliński;26;180;Polonia;Centrocampista;Serie A;Italia ;Napoli;3;3;88;0;0;0;0;1;2.3;0;57;1;0.85;0.8;0.73;0;0.3;0.7;0.7;3;15.3;1.3;0.3;0;0
+Dawid Kownacki ;24;186;Polonia;Attaccante;Zweite Bundesliga;Germania;Fortuna Düsseldorf;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Robert Lewandowski ;32;184;Polonia;Attaccante;Bundesliga;Germania;Bayern Monaco;3;3;90;0;0;0;3;0;4;3;37;1;0.7;0.87;0.6;0;0.3;0;1;5.3;12;1.7;0;1;0
+Karol Świderski;24;184;Polonia;Attaccante;Super League;Grecia;PAOK;3;2;54;0;0;0;0;0;1.7;1;19.7;0;0.76;0.92;0.63;0;0;0.7;0.7;4.3;4.3;0;0;0;0
+Jakub Świerczok;28;179;Polonia;Attaccante;Ekstraklasa;Polonia;Piast Gliwice;1;0;29;0;0;0;0;0;1;0;10;0;1;1;1;0;0;0;1;2;1;1;1;0;0
+Anthony Lopes;30;184;Portogallo;Portiere;Ligue 1;Francia;Olympique Lione;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Rui Patrício;33;190;Portogallo;Portiere;Premier League;Inghilterra;Wolverhampton;4;4;90;1.8;2.8;0;0;0;0;0;28.8;0;0.77;0.86;0.2;1;0;0.3;0;0.3;4.5;0;0;0;0
+Rui Silva ;27;189;Portogallo;Portiere;LaLiga;Spagna;Granada;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Rúben Dias ;23;188;Portogallo;Difensore;Premier League;Inghilterra;Manchester City;4;4;90;0;0;0;0;0;0.3;0;90;0;0.91;0.96;0.82;1;0.8;1.3;0;3;7.5;1;0;1;0
+﻿José Fonte;37;191;Portogallo;Difensore;Ligue 1;Francia;Lille;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Raphael Guerreiro;27;170;Portogallo;Difensore;Bundesliga;Germania ;Borussia Dortmund;4;4;90;0;0;0;1;0;0.8;0;78.3;0;0.91;0.9;0.88;1;0.3;1.8;0.8;2.5;10.5;0.5;0;0;0
+Nuno Mendes;18;175;Portogallo;Difensore;Primeira Liga;Portogallo ;Sporting CP;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Pepe;38;188;Portogallo;Difensore;Primeira Liga;Portogallo;Porto;4;4;90;0;0;0;0;0;0.3;0;79.5;0;0.89;0.97;0.78;1;0.8;1.5;0;3;8.8;0.5;0;1;0
+Nélson Semedo;27;177;Portogallo;Difensore;Premier League;Inghilterra;Wolverhampton;3;3;86;0;0;0;0;0;0;0;66.3;0;0.88;0.92;0.77;0;0.3;4.3;0.7;7;11.3;1;0;0;0
+Diogo Dalot ;22;184;Portogallo;Difensore;Serie A;Italia;Milan;2;1;51;0;0;0;0;0;0;0;46;0;0.9;0.97;0.77;0;0.5;1.5;0.5;3;8.5;0.5;0.5;1;0
+William Carvalho ;29;187;Portogallo;Centrocampista;LaLiga;Spagna;Real Betis;2;2;70;0;0;0;0;0;0;0;52;0;0.89;0.95;0.8;0;0.5;1.5;0;3;6.5;1;0;0;0
+Danilo ;29;187;Portogallo;Centrocampista;Ligue 1;Francia;Paris Saint-Germain;4;3;59;0;0;0;0;0;0.3;1;41.3;0;0.91;0.93;0.89;0;1.3;1.8;0.5;4.3;3.8;1;0;0;0
+Bruno Fernandes ;26;179;Portogallo;Centrocampista;Premier League;Inghilterra;Manchester United;4;2;52;0;0;0;0;0;1;0;34.3;1;0.88;0.87;0.72;0;0;0.8;0;1.5;10;0.3;0.3;0;0
+Gonçalo Guedes;24;179;Portogallo;Centrocampista;LaLiga;Spagna;Valencia;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+João Moutinho;34;171;Portogallo;Centrocampista;Premier League;Inghilterra;Wolverhampton;4;2;39;0;0;0;0;0;0.8;0;32;1;0.92;0.95;0.88;0;0.5;0.8;0;1.5;3.8;0.3;0;0;0
+Rúben Neves;24;181;Portogallo;Centrocampista;Premier League;Inghilterra;Wolverhampton;1;0;17;0;0;0;0;0;0;0;10;0;1;1;1;0;0;0;0;0;0;0;0;0;0
+Sérgio Oliveira;28;180;Portogallo;Centrocampista;Primeira Liga;Portogallo;Porto;2;0;7;0;0;0;0;0;0;0;12.5;0;0.73;1;0.67;0;0;0;0;1;3.5;1;0;0;0
+João Palhinha ;25;189;Portogallo;Centrocampista;Primeira Liga;Portogallo;Sporting CP;2;1;62;0;0;0;0;0;2.5;0;43.5;0;0.92;1;0.86;0;0;4.5;2.5;8;3;1;0;1;0
+Pedro Gonçalves;22;173;Portogallo;Centrocampista;Primeira Liga;Portogallo;Sporting CP;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Renato Sanches ;23;176;Portogallo;Centrocampista;Ligue 1;Francia;Lille;4;2;55;0;0;0;0;0;1;0;59.3;0;0.92;0.97;0.87;0;0.8;1.3;2;4.8;1;0;0;0;0
+Bernardo Silva ;26;173;Portogallo;Centrocampista;Premier League;Inghilterra;Manchester City;4;4;61;0;0;0;0;0;0;0;35.8;0;0.83;0.81;0.78;0;0.3;1.3;0.8;3;8.3;1.3;0;0;0
+João Félix ;21;181;Portogallo;Attaccante;LaLiga;Spagna;Atletico Madrid;1;0;35;0;0;0;0;0;3;0;28;0;0.83;1;0.73;0;0;1;0;5;5;0;0;0;0
+Diogo Jota ;24;178;Portogallo;Attaccante;Premier League;Inghilterra;Liverpool;4;4;81;0;0;0;1;1;2;0;40.3;0;0.82;0.9;0.77;0;0.3;1.3;0.5;3.5;10.8;1;0.5;0;0
+Cristiano Ronaldo;36;187;Portogallo;Attaccante;Serie A;Italia;Juventus;4;4;90;0;0;0;5;1;3.8;1;47.3;1;0.86;0.86;1;0;0.5;0.5;2;7.5;9.8;0;0.5;0;0
+﻿André Silva;25;185;Portogallo;Attaccante;Bundesliga;Germania;Eintracht Frankfurt;3;0;14;0;0;0;0;0;1;0;6;0;1;1;0.88;0;0;0;0;0.3;1.3;0;0;0;0
+Rafa Silva ;27;170;Portogallo;Attaccante;Primeira Liga;Portogallo;Benfica;2;0;26;0;0;0;0;1;0;0;25;1;0.82;0.75;0.81;0;0;0.5;0.5;2.5;7;0.5;0;0;0
+Yuri Dyupin;33;186;Russia;Portiere;Premier Liga;Russia;Rubin;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Matvei Safonov   ;22;191;Russia;Portiere;Premier Liga;Russia;Krasnodar;2;2;90;2;3.5;0;0;0;0;0;33;0;0.7;0.85;0.63;1;0;0;0;0.5;6.5;0;0;0;0
+Anton Shunin ;34;190;Russia;Portiere;Premier Liga;Russia;Dinamo Mosca;1;1;90;3;1;0;0;0;0;0;31;0;0.5;0.78;0.35;0;0;0;0;0;13;0;0;0;0
+Igor Diveev ;21;193;Russia;Difensore;Premier Liga;Russia;CSKA Mosca;3;2;75;0;0;0;0;0;0.3;0;54;0;0.77;0.85;0.66;1;1;2.3;0;5.7;10.3;1;0;1;0
+Georgi Dzhikiya  ;27;188;Russia;Difensore;Premier Liga;Russia;Sparta Mosca;3;3;90;0;0;0;0;0;0;0;53.7;0;0.85;0.94;0.76;1;0.3;1.7;0;3;8;0.7;0;1;0
+Mário Fernandes ;30;187;Russia;Difensore;Premier Liga;Russia;CSKA Mosca;3;3;69;0;0;0;0;0;0.7;0;33.8;0;0.77;0.92;0.63;0;0.7;1.3;0;4.7;6.3;0;0;0;0
+Vyacheslav Karavaev;25;176;Russia;Difensore;Premier Liga;Russia;Zenit;3;0;45;0;0;0;0;0;0;0;26.7;0;0.73;0.85;0.61;0;0;1.3;0;1.7;7;0;0.3;0;0
+Fedor Kudryashov ;34;181;Russia;Difensore;Süper Lig;Turchia;Antalyaspor;1;1;67;0;0;0;0;0;0;0;34;0;0.74;0.7;0.78;0;0;2;0;5;8;3;0;1;0
+Andrei Semenov ;32;190;Russia;Difensore;Premier Liga;Russia;Akhmat;1;1;90;0;0;0;0;0;0;0;59;0;0.81;0.95;0.47;0;1;0;0;0;11;0;0;0;0
+Roman Evgenev ;22;192;Russia;Difensore;Premier Liga;Russia;Dinamo Mosca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Dmitri Barinov ;24;179;Russia;Centrocampista;Premier Liga;Russia;Lokomotiv Mosca;2;2;68;0;0;0;0;0;0;0;59.5;0;0.79;0.82;0.75;0;0;1.5;0.5;3.5;11;1.5;0;1;0
+Denis Cheryshev ;30;179;Russia;Centrocampista;LaLiga;Spagna;Valencia;1;0;34;0;0;0;0;0;0;0;10;0;0.67;0;0.67;0;0;2;0;2;4;1;0;0;0
+﻿Daniil Fomin ;24;185;Russia;Centrocampista;Premier Liga;Russia;Dinamo Mosca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Aleksandr Golovin;25;180;Russia;Centrocampista;Ligue 1;Francia;Monaco;3;3;90;0;0;0;0;0;1.7;0;59;0;0.81;0.85;0.69;0;0.3;1.3;1.7;5;17.3;1.3;0.3;0;0
+Daler Kuzyaev;28;182;Russia;Centrocampista;Premier Liga;Russia;Zenit;3;3;62;0;0;0;0;0;0.3;0;43.3;0;0.85;0.94;0.77;0;0.3;1.7;2.3;6;8;0.7;0;0;0
+Maksim Mukhin;19;181;Russia;Centrocampista;Premier Liga;Russia;CSKA Mosca;3;0;21;0;0;0;0;0;0;0;11.3;0;0.75;0.75;0.69;0;0.3;2;0;2.3;3.3;0.7;0;0;0
+Magomed Ozdoev ;28;184;Russia;Centrocampista;Premier Liga;Russia;Zenit;3;3;71;0;0;0;0;0;1.3;0;43.7;0;0.74;0.86;0.64;0;1;1.7;0.3;3;10;1.3;0;1;0
+Rifat Zhemaletdinov;24;182;Russia;Centrocampista;Premier Liga;Russia;Lokomotiv Mosca;2;0;29;0;0;0;0;0;1;0;15;0;0.78;1;0.67;0;0;0.5;0;1;4.5;0;0;0;0
+Yuri Zhirkov;37;179;Russia;Centrocampista;Premier Liga;Russia;Zenit;1;1;43;0;0;0;0;0;0;0;19;0;0.88;1;0.7;0;0;0;0;0;3;0;0;0;0
+Roman Zobnin ;27;182;Russia;Centrocampista;Premier Liga;Russia;Sparta Mosca;3;3;81;0;0;0;0;0;1;0;51.3;0;0.76;0.88;0.69;0;1.7;2.3;0;5;12;1.7;0;0;0
+Artem Dzyuba ;32;196;Russia;Attaccante;Premier Liga;Russia;Zenit;3;3;88;0;0;0;1;1;1.7;0;40;0;0.58;0.75;0.57;0;0;0;0;9;16.7;2.7;2.3;0;0
+Aleksei Ionov;32;178;Russia;Attaccante;Premier Liga;Russia;Krasnodar;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Denis Makarov ;23;181;Russia;Attaccante;Premier Liga;Russia;Rubin;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Aleksei Miranchuk  ;25;182;Russia;Attaccante;Serie A;Italia;Atalanta;3;2;58;0;0;0;1;0;0.7;0;28.7;0;0.83;0.92;0.76;0;0;1;1;4;8;0;0;0;0
+Aleksandr Sobolev;24;195;Russia;Attaccante;Premier Liga;Russia;Sparta Mosca;2;0;21;0;0;0;0;0;0;0;10.5;0;0.62;0.75;0.56;0;0;0;1;3;3;0.5;0;0;0
+Anton Zabolotny ;29;188;Russia;Attaccante;Premier Liga;Russia;CSKA Mosca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Craig Gordon  ;38;193;Scozia;Portiere;Irish Championship;Scozia;Hearts;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+David Marshall  ;36;191;Scozia;Portiere;English Championship;Inghilterra;Derby;3;3;90;1.7;3;0;0;0;0;0;42.3;0;0.52;0.81;0.35;1;0;0;0;0.3;16.7;0;0;0;0
+Jon McLaughlin  ;33;188;Scozia;Portiere;Premiership;Scozia;Rangers;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Liam Cooper  ;29;186;Scozia;Difensore;Premier League;Inghilterra;Leeds United;1;1;90;0;0;0;0;0;0;0;96;0;0.8;0.9;0.54;0;2;2;0;9;21;0;0;0;0
+Declan Gallagher  ;30;196;Scozia;Difensore;Premiership;Scozia;Motherwell;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Grant Hanley  ;29;188;Scozia;Difensore;English Championship;Inghilterra;Norwich;3;3;71;0;0;0;0;0;0.7;0;45.7;0;0.82;0.9;0.62;1;0.7;1.3;0.3;6;6.7;0.3;0;0;0
+Jack Hendry ;25;192;Scozia;Difensore;Premiership;Scozia;Celtic;1;1;67;0;0;0;0;0;2;0;30;0;0.79;0.82;0.67;0;0;0;0;1;6;0;0;0;0
+Scott McKenna    ;24;188;Scozia;Difensore;English Championship;Inghilterra;Nottingham Forrest;1;0;57;0;0;0;0;0;1;1;26;0;0.74;0.92;0.43;0;1;1;0;7;5;1;0;1;0
+Stephen O'Donnell  ;28;183;Scozia;Difensore;Premiership;Scozia;Motherwell;3;3;84;0;0;0;0;0;0.3;0;46.3;0;0.76;0.94;0.59;1;0.7;1;0.7;4.3;14.9;1.3;0;1;0
+Nathan Patterson   ;19;189;Scozia;Difensore;Premiership;Scozia;Rangers;1;0;11;0;0;0;0;0;0;0;13;0;0.88;1;0.67;0;0;1;0;1;3;0;0;0;0
+Andrew Robertson  ;27;178;Scozia;Difensore;Premier League;Inghilterra;Liverpool;3;3;90;0;0;0;0;0;0.3;0;62;0;0.82;0.9;0.63;1;1;0.7;1;2;15;1.3;0.3;0;0
+Greg Taylor  ;23;174;Scozia;Difensore;Premiership;Scozia;Celtic;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kieran Tierney  ;23;178;Scozia;Difensore;Premier League;Inghilterra;Arsenal;2;2;90;0;0;0;0;0;0.5;0;52.5;0;0.81;0.95;0.67;1;0.5;0.5;0.5;2.5;9.5;0.5;0;0;0
+Stuart Armstrong     ;29;183;Scozia;Centrocampista;Premier League;Inghilterra;Southampton;3;2;50;0;0;0;0;0;0.7;0;28.7;1;0.82;0.81;0.77;0;0.3;1.3;0.3;2;7;0.7;0;0;0
+Ryan Christie   ;26;178;Scozia;Centrocampista;Premiership;Scozia;Celtic;1;1;45;0;0;0;0;0;0;0;22;0;0.75;0.75;0.67;0;0;0;3;4;5;0;0;0;0
+John Fleck     ;29;175;Scozia;Centrocampista;Premier League;Inghilterra;Sheffield United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+James Forrest     ;29;170;Scozia;Centrocampista;Premiership;Scozia;Celtic;1;0;11;0;0;0;0;0;1;0;10;0;0.57;1;0.4;0;0;0;2;3;3;0;0;0;0
+Ryan Fraser  ;27;163;Scozia;Centrocampista;Premier League;Inghilterra;Newcastle ;2;0;22;0;0;0;0;0;1.5;0;12;1;0.92;1;0.65;0;0;0;0;0;3.5;0;0;0;0
+Billy Gilmour   ;19;169;Scozia;Centrocampista;Premier League;Inghilterra;Chelsea;1;1;76;0;0;0;0;0;0;0;50;0;0.91;0.9;0.88;0;0;2;0;2;7;2;0;0;0
+John McGinn  ;26;175;Scozia;Centrocampista;Premier League;Inghilterra;Aston Villa;3;3;90;0;0;0;0;0;2.3;1;45.3;1;0.83;0.82;0.81;0;1.3;2.3;0.7;6.7;10.7;1.3;0;1;0
+Callum McGregor;28;178;Scozia;Centrocampista;Premiership;Scozia;Celtic;3;2;68;0;0;0;1;0;0.7;0;37.3;0;0.93;1;0.88;0;1;0.7;0.3;1.7;5;0.3;0;0;0
+Scott McTominay   ;24;193;Scozia;Centrocampista;Premier League;Inghilterra;Manchester United;3;3;90;0;0;0;0;0;1;0;56.7;0;0.84;0.89;0.77;0;2;1.7;0.7;5.3;10.7;0.3;0;0;0
+David Turnbull  ;21;185;Scozia;Centrocampista;Premiership;Scozia;Celtic;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ché Adams  ;24;178;Scozia;Attaccante;Premier League;Inghilterra;Southampton;3;2;72;0;0;0;0;0;2.3;0;24.3;1;0.84;1;0.79;0;0.3;0.3;0.7;2;5;1;0.3;0;0
+Lyndon Dykes  ;25;188;Scozia;Attaccante;English Championship;Inghilterra;QPR;3;3;86;0;0;0;0;0;2;2;27;0;0.45;0.67;0.39;0;0;0;0.3;6.7;12.7;1;0;0;0
+Kevin Nisbet   ;24;180;Scozia;Attaccante;Premiership;Scozia;Hibernian;3;0;9;0;0;0;0;0;0.7;0;5;0;0.57;1;0;0.3;0.3;0;0.7;2;0.3;0;0;0;0
+Martin Dúbravka  ;32;190;Slovacchia;Portiere;Premier League;Inghilterra;Newcastle;3;3;90;2.3;3.7;1;0;0;0;0;46;0;0.63;0.81;0.28;0;0;0;0;0;13;0.3;0;1;0
+Dušan Kuciak ;35;194;Slovacchia;Portiere;Ekstraklasa;Polonia;Gdańsk;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Marek Rodák ;24;188;Slovacchia;Portiere;Premier League;Inghilterra;Fulham;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Dávid Hancko    ;23;188;Slovacchia;Difensore;1. Liga;Repubblica Ceca ;Sparta Praha;1;0;6;0;0;0;0;0;3;0;14;0;0.75;1;0.5;0;0;0;0;1;2;0;0;0;0
+Tomáš Hubočan   ;35;184;Slovacchia;Difensore;1st Division;Cipro;Omonoia;3;3;88;0;0;0;0;0;0;0;55.7;0;0.87;0.89;0.81;0;1;2.7;0.7;4;7;1.7;0;1;0
+Martin Koscelník ;26;179;Slovacchia;Difensore;1. Liga;Repubblica Ceca ;Liberec;2;1;51;0;0;0;0;0;0.5;0;29;0;0.86;0.86;0.67;0;0.5;0.5;0.5;3;8;1;0;0;0
+Peter Pekarík  ;34;176;Slovacchia;Difensore;Bundesliga;Germania;Hertha Berlin;3;3;78;0;0;0;0;0;0.3;0;58.3;0;0.83;0.86;0.79;0;0.7;1;0;2;8;0.7;0;0;0
+Ľubomír Šatka  ;25;185;Slovacchia;Difensore;Ekstraklasa;Polonia;Lech Poznań;3;3;90;0;0;0;0;0;0;0;73.7;0;0.92;0.95;0.79;0;2.3;0.7;0;3;5.3;0;0;0;0
+Milan Škriniar;26;187;Slovacchia;Difensore;Serie A;Italia;Inter;3;3;90;0;0;0;1;0;0.3;0;71.7;0;0.91;0.95;0.7;0;1.3;1.3;0.3;6.3;6;1;0;1;0
+Martin Valjent  ;25;187;Slovacchia;Difensore;LaLiga 2;Spagna;Mallorca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Denis Vavro ;25;187;Slovacchia;Difensore;LaLiga;Spegna;Huesca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+László Bénes    ;23;181;Slovacchia;Centrocampista;Bundesliga;Germania;Augsburg;2;0;7;0;0;0;0;0;0;0;7.5;0;0.91;1;0.71;0;0;0;0;0.5;1;0;0;0;0
+Ondrej Duda  ;26;181;Slovacchia;Centrocampista;Bundesliga;Germania;Colonia;3;3;75;0;0;0;0;0;0.7;0;42;0;0.8;0.72;0.8;0;0;0.7;1;5;11;1.3;0.3;2;0
+Ján Greguš   ;30;189;Slovacchia;Centrocampista;MLS;Stati Uniti;Minnesota;1;0;1;0;0;0;0;0;0;0;2;0;1;1;0;0;0;0;0;0;0;0;0;0;0
+Marek Hamšík    ;33;183;Slovacchia;Centrocampista;Allsvenskan;Svezia;Göteborg;3;3;85;0;0;0;0;1;1.3;0;57.3;0;0.88;0.91;0.83;0;0;0.3;0.3;1.3;9;0;0;0;0
+Lukáš Haraslín  ;24;182;Slovacchia;Centrocampista;Serie A;Italia;Sassuolo;3;2;61;0;0;0;0;0;1;0;25;0;0.71;0.76;0.68;0;0.7;1.3;0.7;5;6;0.3;0.3;0;0
+Jakub Hromada    ;24;180;Slovacchia;Centrocampista;1. Liga;Repubblica Ceca;Slavia Praha;2;2;62;0;0;0;0;0;0;0;32;0;0.79;0.81;0.67;0;2.5;1;0.5;5;6;1.5;0;0;0
+Patrik Hrošovský  ;29;172;Slovacchia;Centrocampista;Pro League;Belgio;Genk;2;1;48;0;0;0;0;0;0;0;31;0;0.87;0.93;0.78;0;0.5;0.5;0.5;2;3.5;0;0;0;0
+Juraj Kucka  ;34;186;Slovacchia;Centrocampista;Serie A;Italia;Parma;3;3;90;0;0;0;0;0;1.7;0;59.7;0;0.72;0.83;0.6;0;2.7;2;0.7;9.7;14.3;3.3;0.7;0;0
+Stanislav Lobotka  ;26;170;Slovacchia;Centrocampista;Serie A;Italia;Napoli;1;0;45;0;0;0;0;0;0;0;30;0;0.92;0.94;0.88;0;1;0;2;2;3;1;0;0;0
+Tomáš Suslov;18;175;Slovacchia;Centrocampista;Eredivisie;Olanda;Groningen;2;0;12;0;0;0;0;0;0;0;7;0;1;1;1;0;0;0;0;0;3;0;0;0;0
+Vladimír Weiss;31;173;Slovacchia;Centrocampista;1. Liga;Slovacchia;Slovan Bratislava;2;0;18;0;0;0;0;0;0.5;0;15.5;0;0.9;1;0.77;0;0;0.5;0;0.5;4.5;0.5;0;1;0
+﻿Róbert Boženík  ;21;182;Slovacchia;Attaccante;Eredivisie;Olanda;Feyenoord;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Michal Ďuriš  ;32;183;Slovacchia;Attaccante;1st Division;Cipro;Omonoia;3;0;18;0;0;0;0;0;0.7;0;7.7;0;0.93;1;0.88;0;0;0;0;0.3;1;0;0;0;0
+Róbert Mak     ;30;179;Slovacchia;Attaccante;NB 1;Ungheria;Ferencváros;3;3;77;0;0;0;0;0;0.3;0;31;0;0.84;0.87;0.68;0;0.3;0.3;1.3;2.7;9;0;0.3;0;0
+Ivan Schranz;27;185;Slovacchia;Attaccante;1. Liga;Repubblica Ceca;Jablonec;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+David de Gea  ;30;189;Spagna;Portiere;Premier League;Inghilterra;Manchester United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Unai Simón  ;23;189;Spagna;Portiere;LaLiga;Spagna;Athletic;6;6;105;1;1.5;0;0;0;0;0;41.5;0;0.91;0.95;0.47;2;0;0;0;0;3;0;0;0;0
+Robert Sánchez  ;23;197;Spagna;Portiere;Premier League;Inghilterra;Brighton & Hove Albion;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+José Gayà;25;172;Spagna;Difensore;LaLiga;Spagna;Valencia;1;1;77;0;0;0;0;0;3;0;56;0;0.93;1;0.83;0;0;1;0;1;4;0;0;0;0
+Jordi Alba;32;170;Spagna;Difensore;LaLiga;Inghilterra;Barcellona;6;5;92;0;0;0;0;1;0.3;0;109.3;4;0.88;0.9;0.82;2;0.7;1.7;0.3;3.2;15.5;1;0.2;1;0
+Pau Torres   ;24;192;Spagna;Difensore;LaLiga;Inghilterra;Villarreal;6;3;62;0;0;0;0;1;0.5;1;77.7;1;0.93;0.96;0.9;1;0.2;0.7;0;2.3;5.7;0.3;0;1;0
+Aymeric Laporte  ;26;191;Spagna;Difensore;Premier League;Inghilterra;Manchester City;6;6;105;0;0;0;1;0;0.3;0;121.5;1;0.93;0.95;0.91;2;0.8;0.3;0;3.2;8.3;1.5;0;1;0
+Eric García    ;21;182;Spagna;Difensore;Premier League;Inghilterra;Manchester City;3;3;84;0;0;0;0;0;0.3;0;102.7;0;0.96;0.98;0.92;0;1.3;0.3;0.3;1.7;4.7;0.7;0;0;0
+Diego Llorente  ;27;185;Spagna;Difensore;Premier League;Inghilterra;Leeds United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+César Azpilicueta  ;31;178;Spagna;Difensore;Premier League;Inghilterra;Chelsea;4;4;101;0;0;0;1;0;1.3;0;91.5;0;0.89;0.9;0.86;0;0.2;0.8;0;2.8;12.8;1;0;0;0
+Thiago Alcántara  ;30;174;Spagna;Centrocampista;Premier League;Inghilterra;Liverpool;4;0;17;0;0;0;0;0;0.5;0;25.8;0;0.8;0.96;0.73;0;0.5;0.8;0;2;4.8;0;0;0;0
+Sergio Busquets;32;189;Spagna;Centrocampista;LaLiga;Spagna;Barcellona;4;4;100;0;0;0;0;0;0.8;0;95.8;0;0.89;0.93;0.87;0;2.3;2.8;0.8;7.8;10.8;1.8;0;2;0
+Koke;29;177;Spagna;Centrocampista;LaLiga;Spagna;Atletico Madrid﻿;6;6;81;0;0;0;0;0;1.2;0;85.8;2;0.91;0.95;0.84;0;0;2.2;0.5;4.5;12;1;0;0;0
+Marcos Llorente;26;184;Spagna;Centrocampista;LaLiga;Spagna;Atletico Madrid;4;2;61;0;0;0;0;0;1;0;73;0;0.93;0.95;0.88;0;0;0.8;0.8;2;8.5;1.3;0;0;0
+Dani Olmo;22;179;Spagna;Centrocampista;Bundesliga;Germania;Leipzig;5;3;76;0;0;0;0;3;4.2;2;59;4;0.76;0.77;0.71;0;1;0.8;1.2;5.8;17.4;1.8;0;0;0
+Rodri;24;191;Spagna;Centrocampista;Premier League;Inghilterra;Manchester City;5;2;45;0;0;0;0;0;0.6;0;44.8;0;0.92;0.93;0.9;0;0.6;0.6;0;3;4.2;0.6;0;1;0
+Fabián Ruiz;25;189;Spagna;Centrocampista;Serie A;Italia;Napoli;3;0;25;0;0;0;0;0;0.3;0;23.7;0;0.88;1;0.83;0;0;0;0.3;1.3;3;0.3;0;0;0
+Pablo Sarabia  ;28;176;Spagna;Centrocampista;Ligue 1;Francia;Paris Saint-Germain;5;3;50;0;0;0;2;1;1.6;2;39.4;3;0.83;0.97;0.69;0;0.4;0.4;0;1;11.6;0.2;0.2;0;0
+Pedri;18;174;Spagna;Centrocampista;LaLiga;Spagna;Barcellona;6;6;105;0;0;0;0;0;0;0;90.7;3;0.91;0.92;0.91;0;0.7;1.2;0.5;4.2;11.2;0.5;0;0;0
+Adama Traoré ;26;178;Spagna;Centrocampista;Premier League;Inghilterra;Wolverhampton;1;0;13;0;0;0;0;0;0;0;22;0;0.92;1;0.82;0;0;0;3;3;5;0;0;0;0
+Álvaro Morata  ;28;189;Spagna;Attaccante;Serie A;Italia;Juventus;6;5;75;0;0;0;3;0;2.8;6;37.8;0;0.8;0.9;0.77;0;0.3;1;0.5;5.2;10;1.3;0.7;0;0
+Gerard Moreno  ;29;180;Spagna;Attaccante;LaLiga;Spagna;Villarreal;5;2;55;0;0;0;0;2;3.2;5;37.6;1;0.79;0.89;0.69;0;0.4;0.8;0.4;3.4;10.8;0.4;0;0;0
+Mikel Oyarzabal  ;24;181;Spagna;Attaccante;LaLiga;Spagna;Real Sociedad;6;1;28;0;0;0;1;0;1.5;1;22.7;0;0.9;0.9;0.83;0;0.2;0.2;0.8;1.3;4.5;0;0;0;0
+Ferran Torres  ;21;181;Spagna;Attaccante;Premier League;Inghilterra;Manchester City;6;4;61;0;0;0;2;1;1.3;0;35.5;2;0.84;0.88;0.77;0;0.7;0.7;0.7;2.8;9.3;0.7;0.5;0;0
+Karl-Johan Johnsson    ;31;187;Svezia;Portiere;Superliga;Danimarca;Copenhagen;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kristoffer Nordfeldt ;31;190;Svezia;Portiere;Süper Lig;Turchia;Gençlerbirliği;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Robin Olsen  ;31;198;Svezia;Portiere;Premier League;Inghilterra;Everton;4;4;98;1;2.8;0;0;0;0;0;35.8;0;0.4;0.87;0.15;2;0;0;0;0;16.8;0;0;0;0
+Ludwig Augustinsson  ;27;181;Svezia;Difensore;Bundesliga;Germania;Werder Brema;4;4;88;0;0;0;0;0;0.3;0;40.5;0;0.6;0.66;0.49;1;0.3;0.8;0.3;3;13.8;0.5;0;0;0
+Pierre Bengtsson  ;33;177;Svezia;Difensore;Superliga;Danimarca;Vejle;3;0;15;0;0;0;0;0;0;0;6.7;0;0.5;0.33;0.5;0;0;0;0;0;3.3;0.3;0;0;0
+Marcus Danielson    ;32;192;Svezia;Difensore;Chinese League;Cina;Dalian Yifang;4;4;92;0;0;0;0;0;0.3;1;54.8;0;0.81;0.86;0.75;2;1.8;0.3;0.5;4.5;9;0.8;0;1;1
+Andreas Granqvist ;36;192;Svezia;Difensore;Allsvenskan;Svezia;Helsingborg;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Filip Helander  ;28;192;Svezia;Difensore;Premiership;Scozia;Rangers;1;0;19;0;0;0;0;0;0;0;5;0;1;1;0;0;0;0;0;1;0;1;0;0;0
+Pontus Jansson  ;31;194;Svezia;Difensore;English Championship;Inghilterra;Brentford;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Emil Krafth    ;26;181;Svezia;Difensore;Premier League;Inghilterra;Newcastle;4;0;19;0;0;0;0;0;0.3;0;10.8;0;0.57;0.78;0.42;0;0;0.3;0;0.5;2.8;0.3;0;0;0
+Victor Lindelöf  ;27;187;Svezia;Difensore;Premier League;Inghilterra;Manchester United;4;4;98;0;0;0;0;0;0;0;66.5;0;0.87;0.93;0.81;2;0.8;0.3;0.3;4.3;8.7;0;0;0;0
+Mikael Lustig;34;189;Svezia;Difensore;Allsvenskan;Svezia;AIK;4;4;79;0;0;0;0;0;0.3;0;54.5;0;0.72;0.91;0.57;1;1;0.8;0.5;4.8;13.5;0.8;0;1;0
+Jens-Lys Cajuste  ;21;188;Svezia;Centrocampista;Superliga;Danimarca;Midtjylland;2;0;6;0;0;0;0;0;0;0;6;0;0;0;0;0;3;0;0;0;3;0;0;0;0
+Viktor Claesson ;29;183;Svezia;Centrocampista;Premier Liga;Russia;Krasnodar;4;0;21;0;0;0;1;0;0.5;0;9.5;0;0.63;0.8;0.5;0;0;0.5;0.3;1.3;3;0.3;0;0;0
+Albin Ekdal  ;32;186;Svezia;Centrocampista;Serie A;Italia;Sampdoria;4;4;97;0;0;0;0;0;0.5;0;46;1;0.87;0.98;0.8;0;1.5;2;0.3;5.5;6.8;2.3;0;0;0
+Emil Forsberg;29;179;Svezia;Centrocampista;Bundesliga;Germania;Leipzig;4;4;93;0;0;0;4;0;3.5;0;52.8;0;0.85;0.97;0.75;0;0.8;0.8;2.5;4.3;11.5;1.3;0;1;0
+Dejan Kulusevski;21;186;Svezia;Centrocampista;Serie A;Italia;Juventus;2;1;66;0;0;0;0;2;1.5;0;35;1;0.77;1;0.74;0;0;0.5;1;2.5;11.5;1;0.5;1;0
+Sebastian Larsson;35;178;Svezia;Centrocampista;Allsvenskan;Svezia;AIK;4;4;92;0;0;0;0;0;1;0;45.3;0;0.79;0.87;0.6;0;1.8;1.5;0;2.3;10.8;0.8;0.5;0;0
+Kristoffer Olsson   ;25;178;Svezia;Centrocampista;Premier Liga;Russia;Krasnodar;4;4;85;0;0;0;0;0;0.3;0;49.3;0;0.84;0.9;0.79;0;1.3;1;0.5;2.8;8.5;1;0;1;0
+Robin Quaison;27;184;Svezia;Centrocampista;Bundesliga;Germania;Mainz;4;1;31;0;0;0;0;0;0.3;0;9.5;0;0.53;0;0.73;0;0;0;0.8;1;4.8;1.5;0.3;0;0
+Ken Sema ;27;177;Svezia;Centrocampista;English Championship;Inghilterra;Watford;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Mattias Svanberg     ;22;188;Svezia;Centrocampista;Serie A;Italia;Bologna;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Gustav Svensson  ;34;183;Svezia;Centrocampista;Chinese League;Cina;Guangzhou;1;0;2;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Marcus Berg  ;34;184;Svezia;Attaccante;Premier Liga;Russia;Krasnodar;4;2;45;0;0;0;0;0;0.5;1;14.5;0;0.63;0.64;0.6;0;0;0.3;0;2.5;5.5;1.5;0;0;0
+Alexander Isak  ;21;190;Svezia;Attaccante;LaLiga;Spagna;Real Sociedad;4;4;81;0;0;0;0;2;2;2;30;3;0.76;1;0.73;0;0.8;0.5;2;4.5;9;1;0;0;0
+﻿Jordan Larsson ;23;175;Svezia;Attaccante;Premier Liga;Russia;Sparta Mosca;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Yvon Mvogo ;26;190;Svizzera;Portiere;Eredivisie;Olanda;PSV;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Yann Sommer ;32;183;Svizzera;Portiere;Bundesliga;Germania;Borussia Mönchengladbach;5;5;102;1.8;4.2;0;0;0;0;0;41.4;0;0.76;0.91;0.38;0;0;0;0;0.2;7.6;0;0;0;0
+Gregor Kobel  ;23;193;Svizzera;Portiere;Bundesliga;Germania;Stoccarda;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Manuel Akanji  ;25;187;Svizzera;Difensore;Bundesliga;Germania;Borussia Dortmund;5;5;102;0;0;0;0;0;1;0;71.6;0;0.92;0.97;0.82;0;1.6;2;0.4;4.8;5.2;0.8;0;1;0
+Loris Benito   ;29;184;Svizzera;Difensore;Ligue 1;Francia;Bordeaux;1;0;9;0;0;0;0;0;0;0;5;0;0.5;0;0.5;0;0;0;0;0;2;0;0;0;0
+Eray Cömert ;23;183;Svizzera;Difensore;Super League;Svizzera;Basilea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Nico Elvedi  ;24;188;Svizzera;Difensore;Bundesliga;Germania;Borussia Mönchengladbach;5;5;102;0;0;0;0;0;0.4;0;63.6;0;0.89;0.9;0.86;0;1.6;1.4;0.4;3.8;6.6;0.4;0;1;0
+Jordan Lotomba  ;22;177;Svizzera;Difensore;Ligue 1;Francia;Nice;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kevin Mbabu ;26;184;Svizzera;Difensore;Bundesliga;Germania;Wolfsburg;5;2;43;0;0;0;0;1;0.4;1;29.6;1;0.71;0.76;0.65;0;1;1.6;0.6;3.8;8.6;0.8;0;1;0
+Becir Omeragic  ;19;187;Svizzera;Difensore;Super League;Svizzera;Zurigo;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Ricardo Rodríguez ;28;180;Svizzera;Difensore;Serie A;Italia;Torino;5;5;95;0;0;0;0;0;0.6;1;67;0;0.84;0.88;0.75;0;1;2.2;0.8;4.2;12.8;0.4;0;1;0
+Fabian Schär  ;29;186;Svizzera;Difensore;Premier League;Inghilterra;Newcastle;4;2;48;0;0;0;0;0;0.5;0;37.8;0;0.86;0.95;0.67;0;0.5;0.5;0;1.3;5;0.8;0;1;0
+Silvan Widmer  ;28;182;Svizzera;Difensore;Super League;Svizzera;Basilea;4;3;74;0;0;0;0;0;0.3;0;49.5;0;0.79;0.78;0.77;0;1;2.5;0.3;4.8;11;1.3;0;1;0
+Christian Fassnacht    ;27;185;Svizzera;Centrocampista;Super League;Svizzera;Young Boys;2;0;36;0;0;0;0;0;0;0;17;0;0.56;0.8;0.46;0;0;2;0;3.5;5.5;1;0;0;0
+Edimilson Fernandes   ;25;190;Svizzera;Centrocampista;Bundesliga;Germania;Mainz;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Remo Freuler  ;29;181;Svizzera;Centrocampista;Serie A;Italia;Atalanta;5;5;92;0;0;0;0;1;0;0;62.2;1;0.9;0.91;0.87;0;1.4;2;0.8;5.4;8;1.4;0;0;1
+Xherdan Shaqiri;29;169;Svizzera;Centrocampista;Premier League;Inghilterra;Liverpool;5;5;74;0;0;0;3;1;2.2;1;42.6;1;0.82;0.91;0.68;0;0.4;0.4;1;2.2;11.6;1;0.4;0;0
+Djibril Sow  ;24;184;Svizzera;Centrocampista;Bundesliga;Germania;Eintracht Frankfurt;2;0;25;0;0;0;0;0;0.5;0;13.5;0;0.45;0.6;0.29;0;1;1;0;1.5;6;0;0;0;0
+Ruben Vargas     ;22;179;Svizzera;Centrocampista;Bundesliga;Germania;Augsburg;4;0;42;0;0;0;0;0;0.3;0;26;0;0.77;0.76;0.7;0;0.8;1.3;0.5;2.8;8;0;0.5;0;0
+Granit Xhaka  ;28;185;Svizzera;Centrocampista;Premier League;Inghilterra;Arsenal;4;4;98;0;0;0;0;1;1;0;90.5;0;0.91;0.95;0.87;0;0.5;2.8;0.5;7;8.5;2;0;2;0
+Denis Zakaria  ;24;191;Svizzera;Centrocampista;Bundesliga;Germania;Borussia Mönchengladbach;2;1;62;0;0;0;0;0;1;0;23.5;0;0.81;1;0.63;0;1;2;0;2.5;6;1.5;0;0;0
+Steven Zuber ;29;182;Svizzera;Centrocampista;Bundesliga;Germania;Eintracht Frankfurt;4;3;72;0;0;0;0;4;1.5;0;45.8;1;0.82;0.84;0.72;0;0.5;0.8;2;5;13;0.5;0.5;0;0
+Breel Embolo    ;24;185;Svizzera;Attaccante;Bundesliga;Germania;Borussia Mönchengladbach;5;5;74;0;0;0;1;0;2.2;1;36.8;2;0.8;0.78;0.79;0;0;0.6;2;5.8;10.2;0.6;0.2;1;0
+Mario Gavranović    ;31;175;Svizzera;Attaccante;1. HNL;Croazia;Dinamo Zagabria;5;0;31;0;0;0;1;0;0.2;0;11.2;0;0.74;0.67;0.74;0;0;0.2;0.4;1.4;4.2;0.8;1;2;0
+Admir Mehmedi  ;30;183;Svizzera;Attaccante;Bundesliga;Germania;Wolfsburg;2;0;21;0;0;0;0;0;1;0;19;0;0.76;0.67;0.77;0;0;0;0;0.5;4.5;0.5;0;0;0
+Haris Seferović  ;29;189;Svizzera;Attaccante;Primeira Liga;Portogallo;Benfica;5;5;77;0;0;0;3;0;2.6;1;27.2;2;0.75;0.8;0.71;0;0.4;0;0.4;2.2;7.8;1.6;0.2;0;0
+Altay Bayındır   ;23;198;Turchia;Portiere;Süper Lig;Turchia;Fenerbahçe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Uğurcan Çakır ;25;192;Turchia;Portiere;Süper Lig;Turchia;Trabzonspor;3;3;90;2.7;6;0;0;0;0;0;42.3;0;0.56;0.92;0.24;0;0;0;0;0.3;12.3;0;0;0;0
+Mert Günok  ﻿;32;196;Turchia;Portiere;Süper Lig;Turchia;İstanbul Başakşehir;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kaan Ayhan  ;26;185;Turchia;Difensore;Serie A;Italia;Sassuolo;3;2;60;0;0;0;0;0;1;0;48.7;1;0.93;0.99;0.82;0;0.7;0;0.3;1;4;0.7;0;0;0
+Zeki Çelik ;25;180;Turchia;Difensore;Ligue 1;Francia;Lille;3;3;90;0;0;0;0;0;0.3;0;65.7;0;0.82;0.89;0.71;0;3.3;1.7;0.3;3.7;10.3;2;0;1;0
+Merih Demiral;23;192;Turchia;Difensore;Serie A;Italia;Juventus;3;2;75;0;0;0;0;0;1;0;59;0;0.86;0.93;0.63;0;1.7;1.3;0;4.3;6.7;0.3;0;0;0
+﻿Ozan Kabak   ﻿﻿;21;185;Turchia;Difensore;Premier League;Inghilterra;Liverpool;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Umut Meraş;25;178;Turchia;Difensore;Ligue 2;Francia;Le Havre;2;2;82;0;0;0;0;0;0.5;0;43.5;0;0.86;0.91;0.79;0;2;0.5;0.5;3;6.5;1;0;0;0
+Mert Müldür;22;188;Turchia;Difensore;Serie A;Italia;Sassuolo;3;2;54;0;0;0;0;0;3;0;46;0;0.85;0.83;0.81;0;1.5;2.5;2;5.5;9;0.5;0;0;0
+Çağlar Söyüncü   ;24;187;Turchia;Difensore;Premier League;Inghilterra;Leicester City;3;3;90;0;0;0;0;0;0.3;0;70.3;0;0.91;0.92;0.85;0;0;1.7;0;4.3;7;2;0;2;0
+Rıdvan Yılmaz  ;19;174;Turchia;Difensore;Süper Lig;Turchia;Beşiktaş;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Taylan Antalyalı  ;26;180;Turchia;Centrocampista;Süper Lig;Turchia;Galatasaray;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Hakan Çalhanoğlu;27;178;Turchia;Centrocampista;Serie A;Italia;Milan;3;3;89;0;0;0;0;1;0.3;0;59.7;1;0.83;0.95;0.69;0;0.7;1;0.7;3.3;13;2.3;0;2;0
+Halil Dervişoğlu;21;183;Turchia;Centrocampista;English Championship;Inghilterra;Brentford;2;0;15;0;0;0;0;0;0.5;0;4.5;0;0.67;0;0.67;0;0;0;0;0;1.5;1;0;1;0
+İrfan Can Kahveci   ;25;175;Turchia;Centrocampista;Süper Lig;Turchia;Fenerbahçe;3;1;39;0;0;0;1;0;0.7;0;27;0;0.81;0.92;0.74;0;0.3;0.7;0.3;2;5.7;1.3;0;0;0
+Orkun Kökçü;20;175;Turchia;Centrocampista;Eredivisie;Olanda;Feyenoord;1;0;10;0;0;0;0;0;0;0;10;0;0.86;1;0.86;0;0;0;1;2;1;0;0;0;0
+Abdülkadir Ömür  ;21;168;Turchia;Centrocampista;Süper Lig;Turchia;Trabzonspor;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Dorukhan Toköz ;24;180;Turchia;Centrocampista;Süper Lig;Turchia;Beşiktaş;1;0;8;0;0;0;0;0;0;0;9;0;0.75;1;0.5;0;0;1;1;2;2;1;0;0;0
+Ozan Tufan  ;26;182;Turchia;Centrocampista;Süper Lig;Turchia;Fenerbahçe;3;3;57;0;0;0;0;0;0.7;0;34;0;0.87;0.94;0.82;0;0.7;0.3;0;1.7;5.3;0.3;0;0;0
+Okay Yokuşlu;27;190;Turchia;Centrocampista;Premier League;Inghilterra;West Bromwich Albion;3;2;46;0;0;0;0;0;0;0;34;0;0.89;0.96;0.77;0;1;0.7;0.7;3.3;4.3;0.3;0;0;0
+Kerem Aktürkoğlu ;23;173;Turchia;Attaccante;Süper Lig;Turchia;Galatasaray;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Kenan Karaman;27;189;Turchia;Attaccante;Zweite Bundesliga;Germania;Fortuna Düsseldorf;3;2;54;0;0;0;0;0;0.7;0;20.7;0;0.6;0.67;0.54;0;0.7;0.7;0;4;8.3;1;0;0;0
+Enes Ünal  ;23;185;Turchia;Attaccante;LaLiga;Spagna;Getafe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Cengiz Ünder ;23;173;Turchia;Attaccante;Premier League;Inghilterra;Leicester City;3;2;69;0;0;0;0;0;2.7;0;37.3;0;0.77;0.93;0.65;0;0.3;1.7;2;5;11;1;0;0;0
+Yusuf Yazıcı ;25;183;Turchia;Attaccante;Ligue 1;Francia;Lille;3;1;39;0;0;0;0;0;0.3;0;22.7;1;0.92;0.95;0.86;0;0;0.7;0;1.3;3.3;0.3;0;0;0
+Burak Yılmaz ;35;188;Turchia;Attaccante;Ligue 1;Francia;Lille;3;3;90;0;0;0;0;0;3.3;3;32.3;0;0.78;1;0.6;0;0;0.7;0.3;3.3;10;2.3;1.3;1;0
+Georgiy Bushchan  ;26;198;Ucraina;Portiere;Premier League;Ucraina;Dynamo Kyiv;5;5;96;2;3;1;0;0;0;0;33.8;0;0.67;0.86;0.33;0;0.2;0;0;0.6;8.4;0;0;0;0
+Andriy Pyatov  ;36;190;Ucraina;Portiere;Premier League;Ucraina;Shaktar Donetsk;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Anatolii Trubin ;19;200;Ucraina;Portiere;Premier League;Ucraina;Shaktar Donetsk;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Oleksandr Karavaev ;28;173;Ucraina;Difensore;Premier League;Ucraina;Dynamo Kyiv;5;5;96;0;0;0;0;1;1;0;72.8;1;0.83;0.87;0.72;0;1.4;1.2;0;3.6;14.6;0.4;0;0;0
+Serhiy Kryvtsov   ;30;186;Ucraina;Difensore;Premier League;Ucraina;Shaktar Donetsk;2;2;78;0;0;0;0;0;0;0;61;0;0.93;0.94;0.85;0;0.5;0.5;0;1.5;4.5;0.5;0;0;0
+Mykola Matviyenko;25;182;Ucraina;Difensore;Premier League;Ucraina;Shaktar Donetsk;5;5;96;0;0;0;0;0;0;0;90.2;0;0.92;0.94;0.87;0;2.4;1.6;0;2.4;7.4;0.8;0;0;0
+Vitaliy Mykolenko    ;21;180;Ucraina;Difensore;Premier League;Ucraina;Dynamo Kyiv;4;4;89;0;0;0;0;0;0;0;66.3;0;0.83;0.86;0.75;0;2;2.8;0.3;4.3;13;0;0;0;0
+Denys Popov  ;22;185;Ucraina;Difensore;Premier League;Ucraina;Dynamo Kyiv;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Eduard Sobol;26;186;Ucraina;Difensore;Pro League;Belgio;Club Brugge;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Oleksandr Tymchyk   ;25;180;Ucraina;Difensore;Premier League;Ucraina;Dynamo Kyiv;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Illia Zabarnyi  ;18;186;Ucraina;Difensore;Premier League;Ucraina;Dynamo Kyiv;5;5;96;0;0;0;0;0;0.4;1;77.6;0;0.89;0.9;0.88;0;2;1;0.6;2.8;7.6;0.4;0;0;0
+Oleksandr Zinchenko  ;24;175;Ucraina;Difensore;Premier League;Inghilterra;Manchester City;5;5;96;0;0;0;1;1;0.4;0;73.4;2;0.83;0.85;0.77;0;0.8;3.2;0.8;5.4;14.4;0.6;0;0;0
+Roman Bezus  ;30;185;Ucraina;Centrocampista;Pro League;Belgio;Gent;1;0;3;0;0;0;0;0;0;0;4;0;0.67;0.5;1;0;0;0;0;1;1;0;0;0;0
+Yevhen Makarenko  ;29;186;Ucraina;Centrocampista;Pro League;Belgio;Kortrijk;2;0;26;0;0;0;0;0;0.5;0;31;0;0.88;0.86;0.9;0;0.5;1.5;1;4.5;3;0;0;0;0
+Ruslan Malinovskyi;28;181;Ucraina;Centrocampista;Serie A;Italia;Atalanta;4;3;71;0;0;0;0;1;2.5;1;45.3;4;0.81;0.77;0.8;0;0.3;1;1;3.8;12.5;1.3;0.3;0;0
+Marlos  ;32;173;Ucraina;Centrocampista;Premier League;Ucraina;Shaktar Donetsk;2;0;37;0;0;0;0;0;0;0;19.5;0;0.83;0.73;0.84;0;0;1.5;0;1.5;4;0;0;0;0
+Mykola Shaparenko ;22;180;Ucraina;Centrocampista;Premier League;Ucraina;Dynamo Kyiv;5;4;65;0;0;0;0;0;0.6;0;54;0;0.92;0.93;0.89;0;0.6;1.8;0;2;6.6;0.6;0;1;0
+Taras Stepanenko ;31;181;Ucraina;Centrocampista;Premier League;Ucraina;Shaktar Donetsk;2;2;93;0;0;0;0;0;1;0;61;0;0.81;0.81;0.8;0;1;1;0;2.5;11;1.5;0;0;0
+﻿﻿Heorhii Sudakov  ;18;169;Ucraina;Centrocampista;Premier League;Ucraina;Shaktar Donetsk;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Serhiy Sydorchuk   ;29;189;Ucraina;Centrocampista;Premier League;Ucraina;Dynamo Kyiv;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Viktor Tsygankov  ;23;178;Ucraina;Centrocampista;Premier League;Ucraina;Dynamo Kyiv;4;35;0;0;0;0;0;0;0.3;1;22.8;0;0.82;0.9;0.77;0;0;0.5;0.3;1.8;5.5;0.8;0;0;0
+Artem Besedin    ;25;185;Ucraina;Attaccante;Premier League;Ucraina;Dynamo Kyiv;3;0;13;0;0;0;0;0;0;0;4.7;0;0.8;0.5;0.88;0;0;0;0;1;0.7;0;0.7;0;0
+Artem Dovbyk ;24;184;Ucraina;Attaccante;Premier League;Ucraina;Dnipro-1;1;0;15;0;0;0;1;0;2;1;8;0;0.75;1;0.67;0;0;0;0;0;2;1;0;1;0
+Roman Yaremchuk;25;191;Ucraina;Attaccante;Pro League;Belgio;Gent;5;5;86;0;0;0;2;1;2.2;1;33.4;0;0.85;0.9;0.83;0;0;0.6;0.4;2.2;9;1.4;0.6;0;0
+Andriy Yarmolenko   ;31;190;Ucraina;Attaccante;Premier League;Inghilterra;West Ham ;5;5;89;0;0;0;2;2;2;1;44.6;2;0.79;0.85;0.7;0;0;0.6;0.8;3.8;13.2;1;0.4;1;0
+Oleksandr Zubkov  ;24;182;Ucraina;Attaccante;NB 1;Ungheria;Ferencváros;1;1;13;0;0;0;0;0;0;0;6;0;1;1;1;0;0;0;1;1;0;0;0;0;0
+Adam Davies;28;185;Galles;Portiere;English Championship;Inghilterra;Stoke City;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wayne Hennessey  ;34;198;Galles;Portiere;Premier League;Inghilterra;Crystal Palace;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Danny Ward  ;27;191;Galles;Portiere;Premier League;Inghilterra;Leicester City;4;4;90;1.5;4.3;0;0;0;0;0;37.3;0;0.54;0.83;0.33;1;0;0;0;0.3;12.5;0;0;0;0
+Ethan Ampadu  ;20;182;Galles;Difensore;Premier League;Inghilterra;Chelsea;3;1;24;0;0;0;0;0;0;0;14.3;0;0.88;0.94;0.82;0;0.3;0.7;0;1.3;1.3;0.7;0;0;1
+Ben Cabango    ;20;188;Galles;Difensore;English Championship;Inghilterra;Swansea;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+﻿Ben Davies  ;28;181;Galles;Difensore;Premier League;Inghilterra;Tottenham;4;3;69;0;0;0;0;0;0.8;0;39;0;0.76;0.83;0.65;1;0.8;1.8;0;4.5;9.5;0.8;0;1;0
+Chris Gunter   ;31;180;Galles;Difensore;League One;Inghilterra;Charlton;1;1;90;0;0;0;0;0;1;0;37;0;0.8;0.95;0.38;0;1;2;0;2;6;2;0;1;0
+﻿Tom Lockyer  ;26;183;Galles;Difensore;English Championship;Inghilterra;Luton Town;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Chris Mepham;23;191;Galles;Difensore;English Championship;Inghilterra;Bournemouth;3;3;90;0;0;0;0;0;0.3;0;43.7;0;0.87;0.91;0.79;1;1.7;2.3;0;5.3;4.3;0.7;0;1;0
+﻿Rhys Norrington-Davies  ;22;181;Galles;Difensore;English Championship;Inghilterra;Sheffield United;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Connor Roberts  ;25;175;Galles;Difensore;English Championship;Inghilterra;Swansea;4;4;78;0;0;0;1;0;0.5;0;37.3;0;0.83;0.9;0.73;1;0.5;0.3;0.3;2.5;7.3;0;0;0;0
+Joe Rodon;23;193;Galles;Difensore;Premier League;Inghilterra;Tottenham;4;4;90;0;0;0;0;0;0.3;0;41.3;0;0.83;0.87;0.72;1;1.3;0.3;0;3.5;4.8;0.5;0;1;0
+Neco Williams ;20;183;Galles;Difensore;Premier League;Inghilterra;Liverpool;3;1;46;0;0;0;0;0;0;0;27.7;0;0.85;0.87;0.8;0;0.3;0;0.7;1.3;4.3;0;0;0;0
+Joe Allen  ;31;168;Galles;Centrocampista;English Championship;Inghilterra;Stoke City;4;4;85;0;0;0;0;0;0.5;0;41.3;0;0.88;0.94;0.83;0;1;1;0.3;2.5;5.8;1.3;0;1;0
+David Brooks;23;173;Galles;Centrocampista;English Championship;Inghilterra;Bournemouth;3;0;10;0;0;0;0;0;0;0;5;0;0.71;1;0.5;0;0;0;0;0;1.3;0.3;0;1;0
+Rubin Colwill ;18;169;Galles;Centrocampista;English Championship;Inghilterra;Cardiff;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Daniel James  ;23;172;Galles;Centrocampista;Premier League;Inghilterra;Manchester United;4;4;79;0;0;0;0;0;1;0;29;0;0.82;0.73;0.68;0;0.3;0.8;1.5;4.3;8.8;0.5;0;0;0
+Dylan Levitt ;20;181;Galles;Centrocampista;Premier League;Inghilterra;Manchester United;1;0;4;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Joe Morrell  ;24;186;Galles;Centrocampista;English Championship;Inghilterra;Luton Town;4;4;75;0;0;0;0;1;0.3;0;38;0;0.85;0.89;0.82;0;1;1.3;0.5;3.3;5.5;1;0;0;0
+Aaron Ramsey;30;182;Galles;Centrocampista;Serie A;Italia;Juventus;4;4;89;0;0;0;1;0;1.8;3;53.3;0;0.82;0.9;0.74;0;0.5;1;0.8;4.3;11.3;1.3;0;0;0
+Matthew Smith    ;21;178;Galles;Centrocampista;Premier League;Inghilterra;Manchester City;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Jonny Williams ;28;168;Galles;Centrocampista;English Championship;Inghilterra;Cardiff;4;1;35;0;0;0;0;0;0.3;0;19;0;0.77;1;0.66;0;0.3;0.5;0.8;2.5;0;0.5;0;0;0
+Harry Wilson  ;24;173;Galles;Centrocampista;Premier League;Inghilterra;Liverpool;3;0;19;0;0;0;0;0;0.3;1;8.3;0;0.8;0.71;0.88;0;0.3;1;0;1;1.3;0.3;0;0;1
+Gareth Bale ;32;183;Galles;Attaccante;LaLiga;Spagna;Real Madrid;4;4;89;0;0;0;0;2;2.5;2;29.5;5;0.75;0.88;0.64;0;0.8;0.5;0.8;4.5;12.8;0.8;0;1;0
+Kieffer Moore;28;195;Galles;Attaccante;English Championship;Inghilterra;Cardiff;4;3;72;0;0;0;1;0;1.5;0;24.5;0;0.56;0.65;0.51;0;0.3;0;0;7.3;10.3;1;0;2;0
+Tyler Roberts;22;180;Galles;Attaccante;Premier League;Inghilterra;Leeds United;2;0;12;0;0;0;0;0;0;0;5;0;1;1;1;0;0;0;0;0;0;0;0;0;0

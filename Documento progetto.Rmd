@@ -1,0 +1,660 @@
+---
+title: "Euro 2020"
+author: "Marco Gherbezza"
+subtitle: Cosa c'è dietro al risultato?
+output:
+  html_document:
+    df_print: paged
+---
+
+# Introduzione
+
+Come tutti noi ricorderemo il 2021 è stato l’anno dell’Italia un po’ in tutti i campi. Abbiamo trionfato nel campo musicale grazie alla vittoria all’Eurovision da parte dei Måneskin, abbiamo avuto un grosso riconoscimento anche in campo fisico in quanto Giorgio Parisi (assieme ad altri 2 fisici stranieri) ha vinto il Nobel per la fisica per il contributo alla comprensione dei sistemi fisici complessi, anche in ambito artistico abbiamo avuto un gran successo essendoci stati diversi film nominati ai Golden Globe e Laura Pausini premiata come miglior canzone originale. I successi più evidenti però, sono arrivati in ambito sportivo in quanto abbiamo vinto diversi ori olimpici (tra cui i 100 metri con Marcel Jacobs e il salto in alto con Gianmarco Tamberi), raggiunto la finale del torneo di tennis di Wimbledon con Matteo Berrettini e soprattutto, ultimo ma non per importanza, l’europeo di calcio che ha fatto emozionare anche a chi del pallone non interessa. 
+
+Molto spesso però ci si sofferma solamente sul risultato e non sul percorso fatto per arrivarci. Da appassionato di dati e di calcio vorrei quindi proporvi una mia analisi sull'europeo andando a snocciolare un po' di curiosità sulle nazionali che hanno partecipato e sul modo in cui lo hanno fatto, per capire se l'Italia abbia vinto perchè ha avuto una proposta di calcio migliore o per altri motivi.
+
+<!--# Inizio caricando le librerie che mi serviranno per il programma -->
+
+```{r Carico librerie, include=FALSE}
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggtext)
+library(ggrepel)
+library(ggcharts)
+library(ggfortify)
+library(ggthemes)
+library(extrafont)
+library(grid)
+library(gridExtra)
+library(scatterplot3d)
+library(hrbrthemes)
+```
+
+<!--# Carico il dataset e gli do un occhiata con la funzione head() -->
+
+```{r Carico dataset, include=FALSE}
+df <- read_delim("https://raw.githubusercontent.com/MarcoGherby/Progetto-di-Data-Science/main/Database_Euro2020.csv")
+head(df)
+```
+
+<!--# Do una sistemata ad alcune feature -->
+
+```{r Modifico alcune feature, include=FALSE}
+df$TiriPerPartita  <- as.numeric(as.character(df$TiriPerPartita ))
+df <- df %>%                        
+  mutate(GiocatoriACasa = (Nazionalità == Nazionecampionato))
+df <- df %>%                        
+  mutate(GiocatoriAllEstero = (Nazionalità != Nazionecampionato))
+df <- df %>%
+  mutate(GoalSubiti = GoalConcessiPerPartita * PartiteGiocate)
+df$GoalSubiti <- floor(df$GoalSubiti)
+```
+
+## Differenza di età per reparti
+
+Per curiosità inizio dando un occhiata al grafico raffigurante la suddivisione per ruolo dei giocatori, basandomi sulla loro età e scopro che c'è una gran differenza di età tra giocatori di muovimento e giocatori "statici", ossia i portieri. Come possiamo vedere dal grafico la media dei portieri è di circa 30 anni mentre la media dei giocatori di muovimento è circa 25 anni, questo può essere dovuto dallo sforzo richiesto per giocare in quel determinato ruolo, in quanto i portieri non correndo per tutto la partita fanno meno sforzo, e dall'esperienza richiesta in quanto essendo il portiere l'ultimo baluardo della squadra deve conoscere al meglio le occasioni che potrebbero capitargli per poter salvare i propri compagni.
+
+```{r Grafico Età vs Ruolo, echo=FALSE, warning=FALSE}
+a1 <- ggplot(data = df, mapping = aes(x = Anni, fill = Ruolo)) +
+  theme_fivethirtyeight() +
+  theme(axis.title = element_text()) +
+  geom_density(alpha = 0.5) +
+  theme (plot.caption = element_text(face = "italic")) +
+  labs(x = "Età", y = "N° di giocatori",
+       title = "Differenza di età per reparti", subtitle = "Quali sono i ruoli in cui serve più esperienza?",
+       caption = "Data source: SofaScore")
+
+a1
+
+```
+
+### Quali sono i campionati più rappresentati agli scorsi europei?
+
+Continuo la mia ricerca delle curiosità andando a cercare quali sono i campionati più rappresentati ad Euro 2020, ossia da quali campionati sono arrivati più calciatori.
+
+```{r Campionati più rappresentati, echo=FALSE}
+lista_campionati <- df %>% 
+                      count(Campionato) 
+lista_campionati <- lista_campionati[order(-lista_campionati$n), ]
+head(lista_campionati,7)
+```
+
+Come ci si poteva aspettare i primi 4 posti sono occupati dai 4 campionati europei più seguiti dai telespettatori, mentre soprendentemente al quinto e sesto posto troviamo la seconda lega inglese (English Championship) ed il campionato russo (Premier Liga) che mettono dietro il più quotato campionato francese (Ligue 1).
+
+### Quali sono i club che hanno portato più giocatori a rappresentare le proprie nazionali all'Europeo? 
+
+Ma visto che abbiamo osservato i campionati dai quali sono stati selezionati più giocatori, quali sono invece i club più rappresentati?
+
+```{r Squadre più rappresentate, echo=FALSE}
+lista_squadre <- df %>% 
+                      count(Squadra)
+lista_squadre <- lista_squadre[order(-lista_squadre$n), ]
+head(lista_squadre, 7)
+```
+
+Possiamo notare che nelle prime due posizioni troviamo Chelsea e Manchester City, ossia le finaliste della competizione europea più importante, la Champions League. Successivamente troviamo due grandi potenze del calcio europeo come Bayern Monaco e Juventus, mentre scendendo ancora troviamo il Borussia Dortmund e soprendentemente due squadre meno blasonate come Dinamo Kyiv e Leipzig.
+
+<!--# Creo un dataframe in cui mantengo solamente i giocatori che hanno almeno una media 15 minuti giocati. -->
+
+```{r Creo altri dataframe, include=FALSE}
+starts <- subset(df, select = -c(NomeCognome, Ruolo, Campionato, Nazionecampionato, Squadra), MinutiAPartita > 15,)
+```
+
+<!--# Creo un dataset contenente la media di una feature del dataframe in modo da poter comporre un nuovo dataframe contenente i dati medi di ogni feature per ogni nazionale in modo da poter esplorare ed analizzare le nazionali come rosa nel complesso -->
+
+<!--# Creo un dataframe basato su starts che raggruppa le statistiche per nazionali-->
+
+```{r Creo dataframe per nazionali, include=FALSE}
+df2 <- starts %>%
+  group_by(Nazionalità) %>%
+  summarise(Anni = mean(Anni),
+            Altezza = mean(Altezza),
+            GiocatoriACasa = sum(GiocatoriACasa),
+            GiocatoriAllEstero = sum(GiocatoriAllEstero),
+            PartiteGiocate = max(PartiteGiocate),
+            GoalFatti = sum(GoalFatti),
+            GoalSubiti = sum(GoalSubiti),
+            AssistFatti = sum(AssistFatti),
+            TiriPerPartita = sum(TiriPerPartita),
+            GrandiOccasioniSbagliate = sum(GrandiOccasioniSbagliate),
+            PalloniToccatiPerPartita = sum(PalloniToccatiPerPartita),
+            OccasioniChiaveCreate = sum(OccasioniChiaveCreate),
+            PrecisionePassaggi = mean(PrecisionePassaggi),
+            PrecisionePassaggiCampoAmico = mean(PrecisionePassaggiCampoAmico),
+            PrecisionePassaggiCampoAvversario = mean(PrecisionePassaggiCampoAvversario),
+            IntercettazioniAPartita = sum(IntercettazioniAPartita),
+            ContrastiAPartita = sum(ContrastiAPartita),
+            DribblingRiuscitiPerPartita = sum(DribblingRiuscitiPerPartita),
+            DuelliVintiAPartita = sum(DuelliVintiAPartita),
+            PalloniPersiAPartita = sum(PalloniPersiAPartita),
+            FalliPerPartita = sum(FalliPerPartita)
+            )
+```
+
+
+<!--# Creo un dataset raggruppato per nazionalità e per reparti-->
+
+```{r Creo dataframe per nazionali e ruoli, include=FALSE}
+dfR <- df %>%
+  group_by(Nazionalità, Ruolo) %>%
+  summarise(Anni = mean(Anni),
+            Altezza = mean(Altezza),
+            GiocatoriACasa = sum(GiocatoriACasa),
+            GiocatoriAllEstero = sum(GiocatoriAllEstero),
+            PartiteGiocate = max(PartiteGiocate),
+            GoalFatti = sum(GoalFatti),
+            GoalSubiti = sum(GoalSubiti),
+            AssistFatti = sum(AssistFatti),
+            TiriPerPartita = sum(TiriPerPartita),
+            GrandiOccasioniSbagliate = sum(GrandiOccasioniSbagliate),
+            PalloniToccatiPerPartita = sum(PalloniToccatiPerPartita),
+            OccasioniChiaveCreate = sum(OccasioniChiaveCreate),
+            PrecisionePassaggi = mean(PrecisionePassaggi),
+            PrecisionePassaggiCampoAmico = mean(PrecisionePassaggiCampoAmico),
+            PrecisionePassaggiCampoAvversario = mean(PrecisionePassaggiCampoAvversario),
+            IntercettazioniAPartita = sum(IntercettazioniAPartita),
+            ContrastiAPartita = sum(ContrastiAPartita),
+            DribblingRiuscitiPerPartita = sum(DribblingRiuscitiPerPartita),
+            DuelliVintiAPartita = sum(DuelliVintiAPartita),
+            PalloniPersiAPartita = sum(PalloniPersiAPartita),
+            FalliPerPartita = sum(FalliPerPartita), .groups = 'drop'
+            )
+```
+
+```{r Assemblo dataframe, include=FALSE}
+#Inserisco la feature della differenza reti e tronco due feature
+df2 <- mutate (df2, GoalPerPartita = GoalFatti / PartiteGiocate)
+dfR$Anni = trunc(dfR$Anni, prec = -2)
+dfR$Altezza = trunc(dfR$Altezza, prec = -2)
+
+#Tronco due feature e aggiungo la feature dei tiri totali
+dfR$Anni = trunc(dfR$Anni, prec = -2)
+dfR$Altezza = trunc(dfR$Altezza, prec = -2) 
+dfR  <- dfR  %>%
+  mutate(TiriTotali = TiriPerPartita * PartiteGiocate)
+```
+
+```{r Assemblo il dataframe delle nazionali e aggiusto qualche feature, include=FALSE}
+#Converto in stringhe il numero di partite giocate 
+#in modo da agevolare la visualizzazione nei grafici successivamente
+df$PartiteGiocate <- as.character(df$PartiteGiocate)
+df$PartiteGiocate[df$PartiteGiocate <= "3"] <- "Gironi"
+df$PartiteGiocate[df$PartiteGiocate == "4"] <- "Ottavi di finale"
+df$PartiteGiocate[df$PartiteGiocate == "5"] <- "Quarti di finale"
+df$PartiteGiocate[df$PartiteGiocate == "6"] <- "Semifinale"
+df$PartiteGiocate[df$PartiteGiocate == "7"] <- "Finale"
+
+#Do un ordine di importanza alle stringhe contenute nella feature partite giocate
+#in modo da poter rappresentare nei grafici le fasi del toreno raggiunte dalle 
+#varie squadre nell'odrine corretto
+df$PartiteGiocate <- factor(df$PartiteGiocate, 
+                             levels = c("Gironi", "Ottavi di finale", 
+                                        "Quarti di finale", "Semifinale", "Finale"))
+
+#Converto in stringhe il numero di partite giocate 
+#in modo da agevolare la visualizzazione nei grafici successivamente
+df2$PartiteGiocate <- as.character(df2$PartiteGiocate)
+df2$PartiteGiocate[df2$PartiteGiocate <= "3"] <- "Gironi"
+df2$PartiteGiocate[df2$PartiteGiocate == "4"] <- "Ottavi di finale"
+df2$PartiteGiocate[df2$PartiteGiocate == "5"] <- "Quarti di finale"
+df2$PartiteGiocate[df2$PartiteGiocate == "6"] <- "Semifinale"
+df2$PartiteGiocate[df2$PartiteGiocate == "7"] <- "Finale"
+
+#Do un ordine di importanza alle stringhe contenute nella feature partite giocate
+#in modo da poter rappresentare nei grafici le fasi del toreno raggiunte dalle 
+#varie squadre nell'odrine corretto
+df2$PartiteGiocate <- factor(df2$PartiteGiocate, 
+                             levels = c("Gironi", "Ottavi di finale", 
+                                        "Quarti di finale", "Semifinale", "Finale"))
+
+#Aggiungo la feature della differenza reti media 
+df2 <- mutate(df2,
+              GoalDifference = GoalFatti - GoalSubiti)
+df2 <- mutate(df2,
+              GiocatoriUsati = GiocatoriACasa + GiocatoriAllEstero)
+df2a <- df2
+```
+
+```{r Creo dataframe con dati medi per ruolo, include=FALSE}
+#Converto in stringhe il numero di partite giocate 
+#in modo da agevolare la visualizzazione nei grafici successivamente
+dfR$PartiteGiocate <- as.character(dfR$PartiteGiocate)
+dfR$PartiteGiocate[dfR$PartiteGiocate <= "3"] <- "Gironi"
+dfR$PartiteGiocate[dfR$PartiteGiocate == "4"] <- "Ottavi di finale"
+dfR$PartiteGiocate[dfR$PartiteGiocate == "5"] <- "Quarti di finale"
+dfR$PartiteGiocate[dfR$PartiteGiocate == "6"] <- "Semifinale"
+dfR$PartiteGiocate[dfR$PartiteGiocate == "7"] <- "Finale"
+dfR$PartiteGiocate <- factor(dfR$PartiteGiocate, 
+                             levels = c("Gironi", "Ottavi di finale", 
+                                        "Quarti di finale", "Semifinale", "Finale"))
+
+#Creo un sotto-dataframe contenente solamente i giocatori di muovimento 
+dfRmuovimento <- filter(dfR, Ruolo == "Difensore" |
+                 Ruolo == "Centrocampista" |
+                 Ruolo == "Attaccante")
+
+#Aggiungo la feature dei goal segnati a partita
+dfRmuovimento <- dfRmuovimento %>%
+  mutate (GoalPerPartita = GoalFatti / PartiteGiocate)
+
+#Creo i dataframe contenenti i vari ruoli:
+#Creo il dataframe contenente i difensori
+DefdfR <- filter(dfR, Ruolo == "Difensore")
+#Creo il dataframe contenente i centrocampisti
+CendfR <- filter(dfR, Ruolo == "Centrocampista")
+#Creo il dataframe contenente gli attaccanti
+AttdfR <- filter(dfR, Ruolo == "Attaccante")
+```
+
+```{r Creo dataframe con giocatori in quel ruolo, include=FALSE}
+#Creo i dataframe contenente i giocatori delle nazionali in un determinato ruolo:
+
+#Dataframe portieri
+Goalkeeper <- subset(df, select = -c( Campionato, Nazionecampionato, Squadra, GoalFatti, AssistFatti, TiriPerPartita, GrandiOccasioniSbagliate, OccasioniChiaveCreate, IntercettazioniAPartita, ContrastiAPartita, DribblingRiuscitiPerPartita, DuelliVintiAPartita, Fuorigiochi), MinutiAPartita > 15)
+Goalkeeper <- filter(Goalkeeper,  Ruolo == "Portiere")
+#Dataframe difensori
+Defenders <- subset(df, select = -c( Ruolo, Campionato, Nazionecampionato, Squadra, GoalConcessiPerPartita, ParatePerPartita, RigoriParati, GoalSubiti), Ruolo == "Difensore")
+Defenders <- filter(Defenders, MinutiAPartita > 15)
+
+#Dataframe centrocampisti
+Midfielders <- subset(df, select = -c( Ruolo, Campionato, Nazionecampionato, Squadra, GoalConcessiPerPartita, ParatePerPartita, RigoriParati, GoalSubiti), Ruolo == "Centrocampista" )
+Midfielders <- filter(Midfielders, MinutiAPartita > 15)
+
+#Dataframe attaccanti
+Forwards <- subset(df, select = -c( Ruolo, Campionato, Nazionecampionato, Squadra, GoalConcessiPerPartita, ParatePerPartita, RigoriParati, GoalSubiti), Ruolo == "Attaccante" )
+Forwards <- filter(Forwards, MinutiAPartita > 15 )
+```
+
+```{r include=FALSE}
+#PrecisionePassaggi, PrecisionePassaggiCampoAmico, PrecisionePassaggiCampoAvversario
+ppcamdf <-subset(dfRmuovimento, select = c(Nazionalità, Ruolo, PrecisionePassaggiCampoAmico, PalloniToccatiPerPartita, PartiteGiocate))
+ppcamdf <- ppcamdf %>%
+  mutate (Tipo = "Campo proprio")
+ppcamdf <- rename(ppcamdf, PrecisionePassaggi = PrecisionePassaggiCampoAmico)
+
+ppcavdf <-subset(dfRmuovimento, select = c(Nazionalità, Ruolo, PrecisionePassaggiCampoAvversario, PalloniToccatiPerPartita, PartiteGiocate))
+ppcavdf <- ppcavdf %>%
+  mutate (Tipo = "Campo avversario")
+ppcavdf <- rename(ppcavdf, PrecisionePassaggi = PrecisionePassaggiCampoAvversario)
+
+listdfpp <- list (ppcamdf, ppcavdf)
+dfpp <- bind_rows(listdfpp)
+```
+
+
+## Migliore differenza reti? 
+
+Iniziamo l'analisi sui dati ottenuti dal campo andando a disegnare la statistica forse più comune nelle varie classifiche calcistiche ossia la differenza reti, reti segnate - reti subite. Proviamo quindi a dare un'occhiata se c'è una relazione tra la differenza reti ed il percorso di una squadra all'interno di Euro 2022. 
+
+```{r Grafico per differenza reti, echo=FALSE}
+p0 <- ggplot(data=df2, 
+             aes(x = GoalDifference, y = reorder(Nazionalità,GoalDifference),
+                 fill = PartiteGiocate)) +
+  geom_bar(stat = "identity") +
+  theme_solarized() +
+  theme (axis.title = element_text(), 
+         plot.caption = element_text(face = "italic"))  +
+  scale_fill_brewer(palette="Spectral")+
+  labs(x= "Differenza reti", y = "Nazionali", title = "Differenza reti", caption = "Data source: SofaScore") 
+
+p0
+```
+
+Come ci si poteva aspettare il grafico evidenzia l'importanza di aver una buona differenza reti per poter progredire nel torneo. Questo spiega quindi la divisione netta tra le squadre che hanno disputato solamente la fase a gironi e quelle che hanno disputato anche la fase ad eliminazione diretta. Ci sono però delle situazioni più ambigue come ad esempio l'Ucraina che, nonostante abbia subito molti più goal rispetto quelli prodotti, è arrivata a giocarsi i quarti di finale mentre l'Olanda nonostante abbia avuto una segnato molti più goal rispetto a quelli concessi abbia potuto raggiungere solamente gli ottavi di finale della competizione. Un motivo per il quale accadono queste situazioni sta nel fatto che, nella fase gironi c'è più libertà nel giocare in quanto c'è più margine d'errore, la qualità delle rose molto spesso non è equa e per questo sono più probabilità di assistere a partite con molti goal; mentre nella fase ad eliminazione diretta essendoci in gioco la possibilità di proseguire nel torneo le partite sono molto tirate anche perchè le squadre con meno qualità possono pensare di giocare rinchiudendosi in difesa, cercando di segnare in contropiedi per cercare di colmare il gap qualitativo e questo diminuisce la possibiltà di assistere a goleade. 
+
+## Tanto possesso palla = tanti goal? 
+
+Il possesso palla, visto in questo caso come il numero di tocchi palla, è mediamente utile per fare goal e progredire nel torneo? Come in tutte le cose, anche nel calcio ci sono stati molti cambiamenti negli ultimi ventanni, si è passati da un calcio più povero e passionale ad uno sport più atletico e forse un po' più legato al soldo. Una delle novità maggiori degli ultimi anni sul palcoscenico mondiale è stato soprattuto l'idea di vincere le partite attraverso il dominio territoriale del campo ed attraverso il possesso palla portato in voga dal cosiddetto Tiki-Taka dell'iconico Barcellona di Guardiola. Gli spagnoli sono da sempre esperti nel possesso palla e nell'affrontare le partite puntando a dominarle attraverso il bel gioco, ma grazie all'espressione calcistica della squadra catalana questo modo di giocare è stato portato a livelli assoluti,  influenzando gli altri club e dividendo l'opinione pubblica. L'opione pubblica è divisa in quanto una fetta preferisce vedere la propria squadra giocare in modo più difensivo cercando di non prendere goal e di segnare in contropiede (il catenaccio, comunemente associato al calcio all'italiana) mentre ad altri piace di più vedere la propria squadra più propositiva e sempre con il pallino del gioco. Andiamo quindi a vedere cosa ci dicono i dati. 
+
+```{r Palloni toccati vs Goal Fatti, echo=FALSE, warning=FALSE}
+
+p1 <- ggplot(data = df2, mapping = aes(x = PalloniToccatiPerPartita, y = GoalFatti, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(), 
+         plot.caption = element_text(face = "italic")) +
+  labs(x= "Palloni toccati a partita", y = "Goal segnati a partita", caption = "Data source: SofaScore") 
+
+p1
+```
+
+Come si può vedere dal grafico c'è quasi una relazione lineare tra il numero di palloni toccati ed i goal segnati, si può anche notare che la maggior parte delle squadre che hanno terminato il loro torneo ai gironi abbiano avuto un basso numero medio di palloni toccati, probabilmente influenzato anche dalla minor qualità dei propri interpreti. Ci sono inoltre due outliner come Danimarca e Finlandia, la prima è stata più pratica e cinica a segnare più goal avendo meno palloni toccati per costruire gioco mentre  i finnici hanno cercato di costuire di più ma non sono riusciti a convertire in goal questi palloni toccati.
+
+## Quanto conta avere un possesso di qualità? 
+
+Il possesso palla può essere utile in quanto essendo in controllo della palla non puoi essere in difficoltà come quando il possesso lo hanno gli avversari ma il solo possesso è nulla senza la qualità nei passaggi che ti porta a concretizzare il controllo territoriale. Proviamo quindi a vedere se le squadre con più possesso sono qualitative oppure no.
+
+```{r Palloni toccati vs Precisione passaggi, echo=FALSE, warning=FALSE}
+
+p3 <- ggplot(data = df2, mapping = aes(x = PalloniToccatiPerPartita, y = PrecisionePassaggi, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+         plot.caption = element_text(face = "italic")) +
+  labs(x= "Palloni toccati a partita", y = "Precisione passaggi", caption = "Data source: SofaScore") 
+
+p3
+```
+
+Come possiamo notare dal grafico, le squadre con più possesso, quali Spagna Italia e Belgio, sono anche le nazionali con una percentuale di passaggi riusciti maggiore. Questo ci fa pensare che il possesso palla di qualità è una buona arma per segnare anche molti goal, come visto nel grafico precedente. Questa supposizione è ragionevole in quanto è più semplice per una squadra se si riesce ad arrivare al tiro in condizioni migliori attraverso un pallone preciso rispetto ad un passaggio fortunoso o ad un lancio dalla difesa fatto per sperare che gli attaccanti riescano a concretizzarlo. 
+
+## Possesso palla per reparti 
+
+Proviamo ora ad approfondire la nostra visione sulla qualità del possesso di palla delle nazionali andando ad analizzare come hanno contribuiti i tre reparti di movimento (difensori, centrocampisti, attaccanti) ad esso. 
+
+### Come hanno gestito il possesso le varie nazionali?
+
+```{r Possesso palla vs precisione passaggi, echo=FALSE}
+# filter dataframe to get data to be highlighted
+highlight_dfR2 <- dfRmuovimento %>% filter(Nazionalità == 'Italia') 
+
+pp <- ggplot(dfRmuovimento,aes(x = PalloniToccatiPerPartita, y = PrecisionePassaggi, color = PartiteGiocate)) +
+  geom_point() +
+  geom_point(data=highlight_dfR2, 
+             aes(x=PalloniToccatiPerPartita,y=PrecisionePassaggi), 
+             color='red',
+             shape = 17,
+             size=3) + 
+             theme_solarized() +
+  geom_text(aes(label=ifelse(Nazionalità == "Italia", as.character(Nazionalità),'')),
+            hjust=0.5, vjust=1.2, size = 2.5, colour = 'red') +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  facet_grid(~Ruolo) +
+  labs(x = "Palloni toccati per partita", y = "Precisione passaggi", caption = "Data source : Sofascore")
+
+pp
+```
+
+Come si può notare dal grafico e come ci si poteva aspettare, gli attaccanti giocano molti meno palloni dei difensore e dei centrocampisti in quanto giocando la maggior parte del tempo marcato, o comunque nella metà campo avversario hanno più difficoltà ad entrare attivamente nel gioco e nel possesso della squadra.
+
+Possiamo notare che l'Italia, rappresentata dal triangolino rosso nel grafico, ha il possesso palla più qualitativo per quanto riguarda il reparto difensivo il quale la ha aiutata a eludere il pressing avversario ed a iniziare l'azione offensiva anche partendo da dietro. Anche per quanto riguarda il reparto del centrocampo la nazionale italiana ha avuto uno dei migliori possesso palla, mentre non si può dire lo stesso per il reparto offensivo.
+
+### Nella propria meta campo ... 
+
+Osserviamo ora la qualità del possesso che hanno proposto le nazionali nella propria metà campo.
+
+```{r echo=FALSE}
+ppcam <- ggplot(dfRmuovimento,aes(x = PalloniToccatiPerPartita, y = PrecisionePassaggiCampoAmico, color = PartiteGiocate)) +
+  geom_point() +
+  geom_point(data=highlight_dfR2, 
+             aes(x=PalloniToccatiPerPartita,y=PrecisionePassaggiCampoAmico), 
+             color='red',
+             shape = 17,
+             size=3) +
+  geom_text(aes(label=ifelse(Nazionalità == "Italia", as.character(Nazionalità),'')),
+            hjust=0.5, vjust=1.2, size = 2.5, colour = 'red') +
+  theme_solarized() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  facet_grid(~Ruolo) +
+  labs(x = "Palloni toccati per partita", y = "Precisione passaggi", caption = "Data source : Sofascore")
+ppcam
+```
+
+Come si può notare dal grafico il possesso il possesso palla della compagine italiana è stato di buon livello nella propria metà campo per tutti i reparti, spicca soprattutto la prestazione della difesa la quale è la migliore nel rapporti palloni toccati/precisione passaggi. Sicuramente questa qualità di palleggio ha aiutato a diminuire le possibilità di farci male da parte degli avversari.
+
+Osservando il grafico, non si può notare una relazione lineare tra possesso di qualita ed avanzamento nel torneo.
+
+### ... e nella metà campo avversaria? 
+
+Ora invece andiamo a dare un occhiata al possesso nella metà campo avversaria, ossia dove generalmente è più difficile avere qualità essendo molto spesso pressati dagli avversari.
+
+```{r echo=FALSE}
+ppcav <- ggplot(dfRmuovimento,aes(x = PalloniToccatiPerPartita, y = PrecisionePassaggiCampoAvversario, color = PartiteGiocate)) +
+  geom_point() +
+  geom_point(data=highlight_dfR2, 
+             aes(x=PalloniToccatiPerPartita,y=PrecisionePassaggiCampoAvversario), 
+             color='red',
+             shape = 17,
+             size=3) +
+  geom_text(aes(label=ifelse(Nazionalità == "Italia", as.character(Nazionalità),'')),
+            hjust=0.5, vjust=1.2, size = 2.5, colour = 'red') +
+  theme_solarized() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  facet_grid(~Ruolo) +
+  labs(x = "Palloni toccati per partita", y = "Precisione passaggi", caption = "Data source : Sofascore")
+
+ppcav
+```
+
+Anche in questo caso possiamo vedere come il possesso italiano nei vari reparti sia di qualità, l'unico reparto che, come ci si poteva aspettare, ha calato la percentuale di passaggi riusciti è l'attacco che è comunque sopra la media.
+
+Anche in questo caso non si può notare una relazione lineare tra possesso di qualita ed avanzamento nel torneo.
+
+<!--# Goal segnati, possesso e precisione -->
+
+```{r Relazione tridimensionale, eval=FALSE, warning=FALSE, include=FALSE}
+#Creo un dataset contenente solamente le feature che mi servono per questa analisi:
+#ossia Nazionalità, il n° di palloni toccati, la precisione dei passaggi, i goal #segnati e le partite giocate
+df2a <- subset(df2a, select = c( Nazionalità, PalloniToccatiPerPartita, PrecisionePassaggi, GoalFatti, PartiteGiocate))
+
+#Provo a cercare una relazione tridimensionale tra queste feature per vedere se il #possesso qualitativo è sinonimo di molti goal
+colors = c("grey", "blue", "violet", "red", "orange")
+colors <- as.numeric(df2a$PartiteGiocate)
+gp <- scatterplot3d( df2a[1:24,2:4], pch = 16, angle = 45,
+                     color = colors, grid=TRUE, box=FALSE,
+                     main="Goal segnati, possesso e precisione", xlab = "N° palloni toccati", ylab = "Precisione", zlab = "Goal segnati")
+addgrids3d(df2a[1:24, 2:4], grid = c("xz", "xy", "yz"), angle = 45)
+#legend("bottom", legend = levels(df2a$PartiteGiocate),
+#       col = c("grey", "blue", "violet", "red", "orange"), pch = 16,
+#       inset = -0.25, xpd = TRUE, horiz = TRUE)
+```
+
+## Chi ha raccolto meno di quanto creato?
+
+Dopo aver esaminato il posesso palla e la sua relazione con i goal segnati da ogni squadra, cerchiamo di capire quali sono le nazionali che hanno sprecato più occasioni da goal.
+
+```{r Grafico occasioni create vs sfruttate, echo=FALSE}
+df2 <- mutate(df2, GoalPossibili = GoalFatti + GrandiOccasioniSbagliate)
+p2 <- ggplot(df2) +
+  geom_segment( aes(x = reorder(Nazionalità, -GoalFatti), xend = reorder(Nazionalità, -GoalFatti), y=GoalFatti, yend=GoalPossibili), color="grey") +
+  geom_point( aes(x=Nazionalità, y=GoalFatti, colour="Sfruttate"), size=3 ) +
+  geom_point( aes(x=Nazionalità, y=GoalPossibili, colour= "Potenziali"), size=3 ) +
+  coord_flip()+ 
+  theme_solarized()  + 
+  labs(x= "Nazione", y = "N° di occasioni create vs goal segnati", caption = "Data source: Sofascore") +
+  theme(legend.title=element_text(size=20),
+       legend.text=element_text(size=14),
+       plot.caption = element_text(face = "italic"))+
+  scale_colour_manual(name="Occasioni:",
+      values=c("Sfruttate" = "seagreen2", "Potenziali" = "indianred3"))
+p2
+```
+
+Come si può osservare dal grafico soprastante le squadre che hanno concretizzato meno rispetto al volume di occasioni create sono la spagna, che come abbiamo visto nei grafici precedenti è stata anche la squadra con un miglior possesso palla qualitativo e ciò ricorda che nel calcio si vince segnando un goal in più dell'avversario e non avendo solamente il possesso di palla, seguita da Olanda ed Italia, anch'essa produttrice di un possesso di palla molto qualitativo.
+
+## Quale reparto ha contribuito con più goal?
+
+Andiamo ad analizzare da vicino le 5 nazionali che hanno marcato più goal nel torneo provando a capire quale reparto ha contribuito di piu.
+
+```{r Goal per ruolo nelle top 5, echo=FALSE}
+top5goalfatti <- filter(dfRmuovimento,
+                        Nazionalità == "Danimarca" | Nazionalità == "Italia" |
+                        Nazionalità == "Inghilterra" | Nazionalità == "Spagna" |
+                        Nazionalità == "Belgio"| Nazionalità == "Olanda" |
+                        Nazionalità == "Svizzera")
+top5goalfatti$Nazionalità <- factor(top5goalfatti$Nazionalità,    
+                         levels = c("Danimarca", "Italia", "Inghilterra", "Spagna", "Belgio", "Olanda", "Svizzera"))
+
+gf <- ggplot(top5goalfatti, aes(x = "", y = GoalFatti, fill = Ruolo)) +
+  geom_bar(width = 1, stat = "identity", color = "white") +
+  coord_polar("y", start = 0)+
+  theme_fivethirtyeight() +
+  theme(axis.text.y=element_blank(), 
+                axis.ticks=element_blank(), 
+                axis.title=element_blank(),
+                panel.border = element_blank()) +
+  facet_grid(.~ Nazionalità) +
+  labs(caption = "Data source: Sofascore")
+gf
+```
+
+Possiamo dunque notare che anche in questo caso non c'è una legge certa. Ci saremmo potuti aspettare certamente che gli attaccanti avessero trascinato le proprie nazionali a suon di goal ma, come vediamo nel secondo grafico a torta la nostra nazionale ha mandato in goal prevalentemente i nostri centrocampisti i quali probabilmente hanno sfruttato il buon possesso palla della nostra nazionale per degli inserimenti pericolosi in area di rigore. Possiamo notare anche come la Danimarca oltre ad essere stata trascinata dai suoi attaccanti ha mandato in rete molto i suoi difensori, probabilmente abili nel gioco aereo sfruttando le palle da fermo.
+
+## Dribblare è essenziale per segnare? 
+
+Un altro elemento fondamentale e spettacolare del calcio sono i dribbling che permettono i giocatori di sorpassare l'avversario creando molti grattacapi alla squadra difendente che si troverà, sul momento, con un uomo in meno a difendere. Molte volte i dribling sono spettacolare da vedere in quanto sono un elemento inaspettato per lo spettatore in quanto possono avvenire in svariati modi ma, oltre all'aspetto scenico, hanno anche una fort e utilita. Proviamo quindi a capire quali sono le squadre che ne fanno più utilizzo e chi invece preferisce arrivare al goal attraverso una rete di passaggi.
+
+```{r Dribbling Riusciti vs Goal fatti, echo=FALSE, warning=FALSE}
+
+p4 <- ggplot(data = df2, mapping = aes(x = DribblingRiuscitiPerPartita, y = GoalFatti, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+         plot.caption = element_text(face = "italic")) +
+  labs(x= "Dribbling riusciti a partita", y = "Goal Fatti", caption = "Data source : Sofascore") 
+
+p4
+```
+
+Come si può capire dal grafico, i dribbling non sono essenziali per segnare ma sono uno strumento che potrebbe essere utilizzato a discrezione del piano di gioco utilizzato dalla squadra. Si può notare come il Belgio sia di gran lunga la squadra che ne fa più utilizzo, seguita da Olanda e Croazia (le quali probabilmente si affidano ai dribbling per sopperire al longo possesso non molto qualitativo). Possiamo inoltre osservare come le due finaliste, Italia e Inghilterra, abbiano un dribbling riusciti simili mentre si  può notare come la Spagna preferisca affidarsi prevalentemente al possesso qualitativo rispetto ai dribbling.
+
+# Analizzo il contributo dei reparti 
+
+Dopo aver dato un occhiata alle caratteristiche delle varie nazionali, andiamo un po' più in profondità cercando di analizzare come si sono comportati i 4 macro reparti (ossia portieri, difensori, centrocampisti ed attaccanti) di esse per capire se ci sono differenze e punti di forza che hanno aiutato a raggiungere una determinata dfase del torneo.
+
+## Portieri
+
+Iniziamo andando ad osservare probabilmente il ruolo più delicato in una squadra calcistica, ossia quello del portiere. Il portiere spesso viene elogiato per le proprie parate ed i salvataggi che esegue per non far segnare la squadra avversaria ma è anche additato come colpevole ogni volta che ne subisce uno.
+
+### Chi ha salvato di più la propria porta? 
+
+Come primo sguardo andiamo ad osservare quale portiere ha compiuto più parate in confronto ai goal subiti.
+
+```{r Goal concessi a partita vs parate a partita, echo=FALSE}
+
+g1 <- ggplot(data = Goalkeeper, mapping = aes(x = GoalConcessiPerPartita, y = ParatePerPartita, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "Goal concessi a partita", y = "Parate a partita", caption = "Data source : Sofascore")
+
+g1
+```
+
+La prima cosa che chiama la nostra attenzione è la presenza di una doppia pallina per quanto riguarda la nazionale russa. Ovviamente ciò significa l'utilizzo di due portieri, osservando il grafico si può ipotizzare che la scelta sia stata dettata dai 3 goal presi e dalle poche parate del portiere rappresentato dal punto in basso a destra.
+
+Possiamo inoltre notare che più una nazionale è arrivata lontano nel torneo meno (mediamente) il portiere è stato chiamato in causa. Si può notare inoltre la gran performance del portiere finlandese il quale ha eseguito molte parate per partita subendo una media di un solo goal a partita.
+
+## Difensori
+
+Passiamo dunque ad analizzare il reparto difensivo, il cui compito principale è ostacolare la squadra avversaria per non farle segnare goal ed anche impostare l'azione offensiva.
+
+### Possessi persi 
+
+Come abbiamo visto nell'introduzione ci sono essenzialmente due grandi filosofie nel calcio: il catenaccio (che è più pratico e punta al prendere un goal meno dell'avversario) e il calcio offensivo (che è più propenso al segnare un goal più dell'avversario). Queste due filosofie portano il reparto difensivo anche a rischi diversi: in quanto la prima vuole che il pallone rimanga essenzialmente in possesso della squadra avversaria e quindi spinge i difensori a rischiare meno passaggi mentre la seconda, vedendo il reparto difensivo come la sorgente della propria costruzione di gioco, porta i difensori a rischiare più passaggi e quindi a prendersi più rischi in fase di costruzione. Andiamo quindi a vedere cosa ci suggeriscono i dati sulla visione delle varie nazionali.
+
+```{r Palloni toccati vs persi (df), echo=FALSE}
+d3 <- ggplot(data = DefdfR, mapping = aes(x = PalloniToccatiPerPartita, y = PalloniPersiAPartita, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "N° di palloni toccati a partita", y = "N° di palloni persi a partita", caption = "Data source : Sofascore")
+
+d3
+```
+
+- Come si può notare dal grafico la Spagna anche in questo caso ha una precisione spettacolare in quanto, nonostante dia la possibilità al suo reparto difensivo di toccare molti palloni, ha un quantità molto bassa di palloni persi rispetto ad esempio all'Italia ed all'Inghilterra che, nonostante qualche pallone giocato in meno hanno una quantità maggiore di possessi persi.
+
+- Una sorpresa è invece vedere il grande operato del reparto difensivo finlandese che è quindi il migliore nel rapporto passaggi effettuati - palloni persi.
+
+### Come hanno difesa le nazionali?
+
+Ora proviamo a vedere come si sono comportate le difese nel loro funzione naturale, ossia il difendere. Due dei modi per interrompere il possesso avversario sono le intercettazioni, ossia quando un giocatore entra in possesso della palla interrompendo un passaggio avversario, ed i contrasti, ossia il tentativo da parte di un giocatore difendente di recuperare palla quando un avversario ne è in possesso. 
+
+```{r echo=FALSE}
+d4 <- ggplot(data = DefdfR, mapping = aes(x = IntercettazioniAPartita, y = ContrastiAPartita, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "Intercettazioni a partita", y = "Contrasti a partita", caption = "Data source : Sofascore")
+
+d4
+```
+
+Anche in questo caso c'è molta varieta, uno spunto interessante ce lo da la Spagna la quale, essendo una della squadre con il magggior numero di palloni toccati ed una ottima percentuale di passaggi riusciti, ci fa pensare che si possa ovviare alla difesa "tradizionale", composta da contrasti duri per recuperare la palla, tenendo il possesso del gioco. Rimanendo in possesso del pallone tolgono quindi la possibilità agli avversari di creargli grattacapi. Diversa può essere invece la strategia Svezia la quale non ha un buon possesso palla ma nonostante questo abbia fatto pochi intercetti e contrasti. 
+
+Notiamo inoltre come la difesa italiana e quella ucraina siano state quelle con un maggior numero di intercettazioni e contrasti effettuati, in modo da poter capire che ci sono molti modi di interpretare la fase difensiva.
+
+## Centrocampisti
+
+Continuiamo il nostro percorso tra i reparti delle squadre andando ad analizzare il centrocampo, ossia il fulcrdifensiva che in fase offensiva trovandosi al centro del gioco sempre.
+
+### Centrocampo più creativo?
+
+Iniziamo analizzando la fantasia dei centrocampi guardando alle occasioni create rispetto al volume di palloni giocati. Essendo sempre a supporto degli attaccanti teoricamente i centrocampisti sono i più adatti a creare occasioni da goal facendo passaggi in profondità o creando situazioni favorevoli ai loro finalizzatori.
+
+```{r Palloni toccati vs prec (cc), echo=FALSE, warning=FALSE}
+
+c1 <- ggplot(data = CendfR, mapping = aes(x = PalloniToccatiPerPartita, y = OccasioniChiaveCreate, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 2.25,  max.overlaps = 5) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "Palloni toccati", y = "Occasioni create", caption = "Data source : Sofascore")
+
+c1
+```
+
+Come possiamo vedere dal grafico anche in questo caso la Spagna è al primo posto per quanto riguarda le occasioni create dai centrocampisti rispetto al volume di palloni toccati, probabilmente aiutati dal loro possesso di palla di qualità elevata. Subito sotto troviamo la Croazia ed il Belgio che, come abbiamo visto precedentemente, è anche la squadra con più dribbling riusciti.
+
+Notiamo inoltre come ci sia una parità di occasioni create da parte delle due finaliste, Italia e Inghilterra, nonostante una quantità maggiore di palloni toccati per la nostra nazionale.
+
+### Quale centrocampo ha provato a costruire di più prendendosi più rischi
+
+Dopo aver analizzato la creatività proviamo a vedere, invece, come hanno gestito il loro possesso palla. Se abbiano avuto un possesso di qualità o se invece sono stati molti i possessi persi dai centrocampi delle varie nazionali.
+
+```{r Palloni toccati vs Palle perse (cc), echo=FALSE}
+c3 <- ggplot(data = CendfR, mapping = aes(x = PalloniToccatiPerPartita, y = PalloniPersiAPartita, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "N° palloni toccati per partita", y = "N° di palloni persi a partita", caption = "Data source : Sofascore")
+
+c3
+```
+
+Anche in questo caso la Spagna è una spanna sopra alle sue contendenti in quanto avendo un volume di palloni toccati elevato è naturale avere anche un numero maggiore di possessi persi, nonostante l'elevata percantuale di passaggi corretti. Come visto precedentemente il centrocampo della compagine iberica viene seguito da quello belga e croato
+
+## Attaccanti
+
+Finiamo il nostro percorso tra i reparti andando ad osservare il lovoro svolto dai reparti offensivi delle varie squadre ai quali viene affidato prevalentemente il compito di finalizzare le azioni offensive oppure di fare da boa, ossia mantenere il possesso di palla dopo i lanci lunghi dalla difesa in modo da far salire la squadra.
+
+### Quale attacco ha avuto bisogno di più tiri per segnare ?
+
+In quanto il compito naturale degli attaccanti è quello di concretizzare le sortite offensive delle proprie squadre andiamo ad osservare quali sono stati gli attacchi più cinici, ossia i quali hanno avuto bisogno di meno tiri per segnare.
+
+```{r Tiri vs Goal (Attaccanti) 1, echo=FALSE}
+a1 <- ggplot(data = AttdfR, mapping = aes(x = TiriTotali, y = GoalFatti, color = PartiteGiocate)) + 
+  geom_point() +
+  geom_text_repel(aes(label = Nazionalità), size = 3,  max.overlaps = Inf) +
+  theme_fivethirtyeight() +
+  theme (axis.title = element_text(),
+       plot.caption = element_text(face = "italic")) +
+  labs(x = "N° tiri ", y = "N° goal segnati ", caption = "Data source : Sofascore")
+
+a1
+```
+
+Come possiamo vedere l'attacco danese è stato il più prolifico anche grazie ad uno delle maggiori quantità di tiri effettuati, il reparto offensivo italiano è stato invece il più propenso a tirare in porta ma non è riuscito a capitalizzare molte di queste occasioni. Inoltre possiamo notare anche in questo caso una vicinanza tra i raprti offensivi di Spagna, Danimarca ed Italia mentre per quanto riguarda l'altra semifinalista, l'Inghilterra, ha sfruttato molto di più il minor numero di tiri tentati.
+
+### Conclusione finale
+
+Come abbiamo potuto anallizare attraverso i grafici la nostra nazionale è stata tra le migliori ma non è c'è stato così tanto divario rispetto alle altre squadre arrivate in fondo alla competizione. Nonostante ciò penso sia stato importante proprio per questo motivo analizzare la proposta delle varie nazionali per studiarne l'idea di gioco e capire i punti di forza di ognuno. Questo è, in maniera semplificata, ciò che fanno gli addetti ai lavori delle varie società calcistiche ed in generale sportive. In questi anni difatti c'è stato un aumento dell'attenzione rispetto ai dati anche in ambito sportivo facendo si che molte società abbiano e stiano investendo nel personale competente anche in questo ambito per cercare di capire in maniera mirata cosa poter migliorare nella propria squadra andando ad analizzare i dati.
+
